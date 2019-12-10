@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="TaskWasCancelled" xml:space="preserve">
+    <value>Zadanie zostało anulowane.</value>
+  </data>
+  <data name="StreamDisposed" xml:space="preserve">
+    <value>Strumień został usunięty</value>
+  </data>
+  <data name="UnableToFindMethod" xml:space="preserve">
+    <value>Nie można odnaleźć metody „{0}/{1}” w klasie {2}. Przyczyny: {3}</value>
+  </data>
+  <data name="ResponseIsNotError" xml:space="preserve">
+    <value>Odpowiedź nie jest błędem.</value>
+  </data>
+  <data name="UnexpectedErrorProcessingJsonRpc" xml:space="preserve">
+    <value>Nieoczekiwany błąd podczas przetwarzania komunikatu JSON-RPC: {0}</value>
+  </data>
+  <data name="CancellationTokenMustBeLastParameter" xml:space="preserve">
+    <value>Element CancellationToken jest dozwolony tylko jako ostatni parametr.</value>
+  </data>
+  <data name="UnsupportedEventHandlerTypeOnClientProxyInterface" xml:space="preserve">
+    <value>Nieobsługiwany typ procedury obsługi zdarzeń dla elementu „{0}”. Obsługiwane są wyłącznie procedury obsługi EventHandler i EventHandler&lt;T&gt;.</value>
+  </data>
+  <data name="ParameterObjectsNotSupportedInJsonRpc10" xml:space="preserve">
+    <value>Protokół JSON-RPC 1.0 nie obsługuje nazwanych argumentów (parametrów przekazywanych w ramach obiektu). Użyj argumentów pozycyjnych (tablic parametrów) lub ustaw wersję protokołu na 2.0.</value>
+  </data>
+  <data name="TargetObjectAndMethodStaticFlagMismatch" xml:space="preserve">
+    <value>Należy podać obiekt docelowy tylko wtedy, gdy metoda nie jest statyczna.</value>
+  </data>
+  <data name="UnrecognizedIncomingJsonRpc" xml:space="preserve">
+    <value>Przychodzący komunikat JSON-RPC nie był zgodny z rozpoznanym wzorcem.</value>
+  </data>
+  <data name="TextEncoderNotApplicable" xml:space="preserve">
+    <value>Kodowanie tekstu nie jest obsługiwane, ponieważ program formatujący „{0}” nie implementuje elementu „{1}”.</value>
+  </data>
+  <data name="ConflictingMethodNameAttribute" xml:space="preserve">
+    <value>Wszystkie przeciążenia i przesłonięcia metody „{0}” muszą udostępniać wspólną wartość dla elementu {1}.{2}.</value>
+  </data>
+  <data name="ReadingJsonRpcStreamFailed" xml:space="preserve">
+    <value>Odczytywanie wywołania JSON RPC ze strumienia nie powiodło się — {0}: {1}</value>
+  </data>
+  <data name="ConnectionDropped" xml:space="preserve">
+    <value>Połączenie JSON-RPC z podmiotem zdalnym zostało utracone, zanim można było ukończyć żądanie.</value>
+  </data>
+  <data name="DroppingRequestDueToNoTargetObject" xml:space="preserve">
+    <value>Otrzymano żądanie wykonania metody „{0}”, ale brakuje obiektu wywołania zwrotnego. Żądanie zostanie odrzucone.</value>
+  </data>
+  <data name="FormatterConfigurationLockedAfterJsonRpcAssigned" xml:space="preserve">
+    <value>The configuration is locked because this formatter has already been associated with a JsonRpc instance.</value>
+  </data>
+  <data name="PositiveIntegerRequired" xml:space="preserve">
+    <value>Wymagana jest dodatnia liczba całkowita.</value>
+  </data>
+  <data name="StreamMustBeWriteable" xml:space="preserve">
+    <value>Strumień musi być możliwy do zapisu.</value>
+  </data>
+  <data name="ResponseUnexpectedFormat" xml:space="preserve">
+    <value>Response is in an unexpected format.  Only error and result are supported: {0}</value>
+  </data>
+  <data name="JsonRpcCannotBeNull" xml:space="preserve">
+    <value>Wywołanie JSON RPC nie może mieć wartości null.</value>
+  </data>
+  <data name="BothReadableWritableAreNull" xml:space="preserve">
+    <value>Elementy readable i writable mają wartość null.</value>
+  </data>
+  <data name="FillBufferFirst" xml:space="preserve">
+    <value>Bufor jest pusty. Wywołaj metodę asynchroniczną, aby najpierw go wypełnić.</value>
+  </data>
+  <data name="ReachedEndOfStream" xml:space="preserve">
+    <value>Osiągnięto koniec strumienia.</value>
+  </data>
+  <data name="HeaderValueTooLarge" xml:space="preserve">
+    <value>Rozmiar nagłówka komunikatu przekracza maksymalny obsługiwany rozmiar.</value>
+  </data>
+  <data name="FailureDeserializingJsonRpc" xml:space="preserve">
+    <value>Błąd deserializacji przychodzącego wywołania JSON RPC „{0}”: {1}</value>
+  </data>
+  <data name="RpcMethodNameNotFound" xml:space="preserve">
+    <value>Nie znaleziono metody o nazwie „{0}”.</value>
+  </data>
+  <data name="SumOfTwoParametersExceedsArrayLength" xml:space="preserve">
+    <value>Parametry {0} i {1} przekraczają długość tablicy.</value>
+  </data>
+  <data name="UnsupportedPropertiesOnClientProxyInterface" xml:space="preserve">
+    <value>Właściwości nie są obsługiwane dla interfejsów usług.</value>
+  </data>
+  <data name="NonNegativeIntegerRequired" xml:space="preserve">
+    <value>Wymagana jest nieujemna liczba całkowita.</value>
+  </data>
+  <data name="MethodParametersNotCompatible" xml:space="preserve">
+    <value>Parametry {0} nie są zgodne z argumentami zawartymi w żądaniu.</value>
+  </data>
+  <data name="MustBeListening" xml:space="preserve">
+    <value>Najpierw należy uruchomić nasłuchiwanie.</value>
+  </data>
+  <data name="ParameterNotObject" xml:space="preserve">
+    <value>Parametr nie ma postaci pojedynczego obiektu</value>
+  </data>
+  <data name="MustNotBeListening" xml:space="preserve">
+    <value>Tego nie można zrobić po uruchomieniu nasłuchiwania.</value>
+  </data>
+  <data name="InvalidAfterListenHasStarted" xml:space="preserve">
+    <value>Ta operacja jest niedozwolona po rozpoczęciu nasłuchiwania komunikatów.</value>
+  </data>
+  <data name="HeaderContentLengthNotParseable" xml:space="preserve">
+    <value>Nie powiodło się przekształcanie nagłówka Content-Length w dodatnią liczbę całkowitą.</value>
+  </data>
+  <data name="RelayAlreadySet" xml:space="preserve">
+    <value>Relay connection has already been established.</value>
+  </data>
+  <data name="TaskNotCompleted" xml:space="preserve">
+    <value>Zadanie nie zostało ukończone.</value>
+  </data>
+  <data name="MethodHasRefOrOutParameters" xml:space="preserve">
+    <value>Metoda {0} ma parametry ref lub out, co nie jest obsługiwane</value>
+  </data>
+  <data name="InvalidBeforeListenHasStarted" xml:space="preserve">
+    <value>Ta operacja jest niedozwolona przed rozpoczęciem nasłuchiwania komunikatów.</value>
+  </data>
+  <data name="NotSupportedWithoutMultiplexingStream" xml:space="preserve">
+    <value>Out of band streams/pipes are not supported in this configuration. Have you set a MultiplexingStream on the formatter?</value>
+  </data>
+  <data name="RequiredArgumentMissing" xml:space="preserve">
+    <value>Nie dostarczono argumentu dla wymaganego parametru.</value>
+  </data>
+  <data name="ConflictingMethodAttributeValue" xml:space="preserve">
+    <value>Metody programu .NET „{0}” i „{1}” nie mogą mieć jednocześnie mapowania na tę samą nazwę metody żądania: „{2}”.</value>
+  </data>
+  <data name="StreamMustBeReadable" xml:space="preserve">
+    <value>Strumień musi być możliwy do odczytu.</value>
+  </data>
+  <data name="ErrorWritingJsonRpcMessage" xml:space="preserve">
+    <value>Błąd zapisywania komunikatu JSON zdalnego wywołania procedury: {0}: {1}</value>
+  </data>
+  <data name="MarshaledObjectInResponseOrNotificationError" xml:space="preserve">
+    <value>This tracked object should not be part of any response or notification.</value>
+  </data>
+  <data name="MethodParameterCountDoesNotMatch" xml:space="preserve">
+    <value>Metoda {0} ma liczbę parametrów {1} (nie licząc wszelkich tokenów CancellationToken), ale żądanie dostarcza {2}</value>
+  </data>
+  <data name="UnsupportedJsonRpcProtocolVersion" xml:space="preserve">
+    <value>Nieobsługiwana wersja protokołu JSON-RPC: {0}. Obsługiwane wersje protokołu: {1}</value>
+  </data>
+  <data name="FatalExceptionWasThrown" xml:space="preserve">
+    <value>Metoda serwera {0}: {1} zgłosiła wyjątek krytyczny</value>
+  </data>
+  <data name="UnexpectedTokenReadingHeader" xml:space="preserve">
+    <value>Nieoczekiwany token „{0}” podczas analizowania nagłówka.</value>
+  </data>
+  <data name="ConflictMethodSignatureAlreadyRegistered" xml:space="preserve">
+    <value>Metoda o tej samej nazwie i odpowiadających jej parametrach została już zarejestrowana.</value>
+  </data>
+  <data name="ErrorWritingJsonRpcResult" xml:space="preserve">
+    <value>Błąd zapisywania wyniku JSON RPC: {0}: {1}</value>
+  </data>
+  <data name="ClientProxyTypeArgumentMustBeAnInterface" xml:space="preserve">
+    <value>Element „{0}” nie jest interfejsem.</value>
+  </data>
+  <data name="UnsupportedGenericMethodsOnClientProxyInterface" xml:space="preserve">
+    <value>Metody ogólne nie są obsługiwane.</value>
+  </data>
+  <data name="FindIProgressOfTError" xml:space="preserve">
+    <value>Unable to cast given Type to IProgress&lt;T&gt;</value>
+  </data>
+  <data name="UnsupportedMethodReturnTypeOnClientProxyInterface" xml:space="preserve">
+    <value>Metoda „{0}” ma nieobsługiwany zwracany typ „{1}”. Obsługiwane są tylko metody zwracające zadania.</value>
+  </data>
+</root>

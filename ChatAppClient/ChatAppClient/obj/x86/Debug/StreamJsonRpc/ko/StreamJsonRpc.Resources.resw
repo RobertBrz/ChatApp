@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="TaskWasCancelled" xml:space="preserve">
+    <value>작업이 취소되었습니다.</value>
+  </data>
+  <data name="StreamDisposed" xml:space="preserve">
+    <value>스트림이 삭제되었습니다.</value>
+  </data>
+  <data name="UnableToFindMethod" xml:space="preserve">
+    <value>{2}에서 '{0}/{1}' 메서드를 다음과 같은 이유로 찾을 수 없음:{3}</value>
+  </data>
+  <data name="ResponseIsNotError" xml:space="preserve">
+    <value>응답은 오류가 아닙니다.</value>
+  </data>
+  <data name="UnexpectedErrorProcessingJsonRpc" xml:space="preserve">
+    <value>JSON-RPC 메시지를 처리하는 동안 예기치 않은 오류 발생: {0}</value>
+  </data>
+  <data name="CancellationTokenMustBeLastParameter" xml:space="preserve">
+    <value>CancellationToken은 마지막 매개 변수로만 허용됩니다.</value>
+  </data>
+  <data name="UnsupportedEventHandlerTypeOnClientProxyInterface" xml:space="preserve">
+    <value>"{0}"의 지원되지 않는 이벤트 처리기 형식. EventHandler 및 EventHandler&lt;T&gt;만 지원됩니다.</value>
+  </data>
+  <data name="ParameterObjectsNotSupportedInJsonRpc10" xml:space="preserve">
+    <value>JSON-RPC 1.0은 명명된 인수(개체 내에서 전달된 매개 변수)를 지원하지 않습니다. 위치 인수(매개 변수 배열)를 사용하거나 프로토콜 버전을 2.0으로 설정하세요.</value>
+  </data>
+  <data name="TargetObjectAndMethodStaticFlagMismatch" xml:space="preserve">
+    <value>메서드가 정적이지 않은 경우에만 대상 개체를 제공해야 합니다.</value>
+  </data>
+  <data name="UnrecognizedIncomingJsonRpc" xml:space="preserve">
+    <value>들어오는 JSON-RPC 메시지가 인식되는 패턴과 일치하지 않습니다.</value>
+  </data>
+  <data name="TextEncoderNotApplicable" xml:space="preserve">
+    <value>포맷터 "{0}"이(가) "{1}"을(를) 구현하지 않기 때문에 텍스트 인코딩이 지원되지 않습니다.</value>
+  </data>
+  <data name="ConflictingMethodNameAttribute" xml:space="preserve">
+    <value>'{0}' 메서드의 모든 오버로드 및 재정의는 {1}에 대한 공통 값을 공유해야 합니다.{2}.</value>
+  </data>
+  <data name="ReadingJsonRpcStreamFailed" xml:space="preserve">
+    <value>{0}(으)로 인해 스트림에서 JSON RPC 읽기 실패:{1}</value>
+  </data>
+  <data name="ConnectionDropped" xml:space="preserve">
+    <value>요청을 완료하기 전에 원격 대상과 JSON-RPC 연결이 끊어졌습니다.</value>
+  </data>
+  <data name="DroppingRequestDueToNoTargetObject" xml:space="preserve">
+    <value>‘{0}’을(를) 실행하도록 요청을 받았지만 이 요청에 콜백 개체가 없습니다. 요청을 삭제합니다.</value>
+  </data>
+  <data name="FormatterConfigurationLockedAfterJsonRpcAssigned" xml:space="preserve">
+    <value>The configuration is locked because this formatter has already been associated with a JsonRpc instance.</value>
+  </data>
+  <data name="PositiveIntegerRequired" xml:space="preserve">
+    <value>양의 정수가 필요합니다.</value>
+  </data>
+  <data name="StreamMustBeWriteable" xml:space="preserve">
+    <value>스트림은 쓸 수 있는 상태여야 합니다.</value>
+  </data>
+  <data name="ResponseUnexpectedFormat" xml:space="preserve">
+    <value>Response is in an unexpected format.  Only error and result are supported: {0}</value>
+  </data>
+  <data name="JsonRpcCannotBeNull" xml:space="preserve">
+    <value>JSON RPC는 null이면 안 됩니다.</value>
+  </data>
+  <data name="BothReadableWritableAreNull" xml:space="preserve">
+    <value>읽고 쓸 수 있는 개체는 null입니다.</value>
+  </data>
+  <data name="FillBufferFirst" xml:space="preserve">
+    <value>버퍼가 비어 있으므로 이를 채우기 위해 비동기 메서드를 호출합니다.</value>
+  </data>
+  <data name="ReachedEndOfStream" xml:space="preserve">
+    <value>스트림 끝에 도달했습니다.</value>
+  </data>
+  <data name="HeaderValueTooLarge" xml:space="preserve">
+    <value>메시지 헤더의 크기가 지원되는 최대 크기를 초과합니다.</value>
+  </data>
+  <data name="FailureDeserializingJsonRpc" xml:space="preserve">
+    <value>들어오는 JSON RPC '{0}'을(를) 역직렬화하는 데 실패:{1}</value>
+  </data>
+  <data name="RpcMethodNameNotFound" xml:space="preserve">
+    <value>이름이 '{0}'인 메서드를 찾지 못했습니다.</value>
+  </data>
+  <data name="SumOfTwoParametersExceedsArrayLength" xml:space="preserve">
+    <value>{0} 및 {1} 매개 변수가 배열 길이를 초과합니다.</value>
+  </data>
+  <data name="UnsupportedPropertiesOnClientProxyInterface" xml:space="preserve">
+    <value>속성은 서비스 인터페이스에 지원되지 않습니다.</value>
+  </data>
+  <data name="NonNegativeIntegerRequired" xml:space="preserve">
+    <value>음수가 아닌 정수가 필요합니다.</value>
+  </data>
+  <data name="MethodParametersNotCompatible" xml:space="preserve">
+    <value>{0} 매개 변수는 요청에 제공된 인수와 호환되지 않습니다.</value>
+  </data>
+  <data name="MustBeListening" xml:space="preserve">
+    <value>수신이 먼저 시작되어야 합니다.</value>
+  </data>
+  <data name="ParameterNotObject" xml:space="preserve">
+    <value>매개 변수가 단일 개체 형식이 아닙니다.</value>
+  </data>
+  <data name="MustNotBeListening" xml:space="preserve">
+    <value>수신이 시작된 후 이 작업은 완료할 수 없습니다.</value>
+  </data>
+  <data name="InvalidAfterListenHasStarted" xml:space="preserve">
+    <value>메시지 수신이 시작된 뒤에는 이 작업이 허용되지 않습니다.</value>
+  </data>
+  <data name="HeaderContentLengthNotParseable" xml:space="preserve">
+    <value>Content-Length 헤더를 양의 정수로 구문 분석할 수 없습니다.</value>
+  </data>
+  <data name="RelayAlreadySet" xml:space="preserve">
+    <value>Relay connection has already been established.</value>
+  </data>
+  <data name="TaskNotCompleted" xml:space="preserve">
+    <value>작업이 완료되지 않았습니다.</value>
+  </data>
+  <data name="MethodHasRefOrOutParameters" xml:space="preserve">
+    <value>{0}에 ref 또는 지원되지 않는 출력 매개 변수가 있습니다.</value>
+  </data>
+  <data name="InvalidBeforeListenHasStarted" xml:space="preserve">
+    <value>메시지 수신이 시작되기 전에는 이 작업이 허용되지 않습니다.</value>
+  </data>
+  <data name="NotSupportedWithoutMultiplexingStream" xml:space="preserve">
+    <value>Out of band streams/pipes are not supported in this configuration. Have you set a MultiplexingStream on the formatter?</value>
+  </data>
+  <data name="RequiredArgumentMissing" xml:space="preserve">
+    <value>필수 매개 변수에 인수가 제공되지 않았습니다.</value>
+  </data>
+  <data name="ConflictingMethodAttributeValue" xml:space="preserve">
+    <value>.NET 메서드 '{0}' 및 '{1}'이(가) 둘 다 동일한 요청 메서드 이름에 매핑될 수 없습니다. '{2}'.</value>
+  </data>
+  <data name="StreamMustBeReadable" xml:space="preserve">
+    <value>스트림은 읽을 수 있는 상태여야 합니다.</value>
+  </data>
+  <data name="ErrorWritingJsonRpcMessage" xml:space="preserve">
+    <value>JSON RPC 메시지를 쓰는 동안 오류 발생: {0}: {1}</value>
+  </data>
+  <data name="MarshaledObjectInResponseOrNotificationError" xml:space="preserve">
+    <value>This tracked object should not be part of any response or notification.</value>
+  </data>
+  <data name="MethodParameterCountDoesNotMatch" xml:space="preserve">
+    <value>{0} 매개 변수(CancellationToken 제외)는 {1}이지만 요청에서는 {2}이(가) 제공됩니다.</value>
+  </data>
+  <data name="UnsupportedJsonRpcProtocolVersion" xml:space="preserve">
+    <value>JSON-RPC 프로토콜 버전 {0}은(는) 지원되지 않습니다. 지원되는 프로토콜 버전: {1}</value>
+  </data>
+  <data name="FatalExceptionWasThrown" xml:space="preserve">
+    <value>서버 메서드에서 치명적인 예외가 throw되었습니다. {0}: {1}</value>
+  </data>
+  <data name="UnexpectedTokenReadingHeader" xml:space="preserve">
+    <value>헤더를 구문 분석하는 동안 예기치 않은 토큰 '{0}'이(가) 발생했습니다.</value>
+  </data>
+  <data name="ConflictMethodSignatureAlreadyRegistered" xml:space="preserve">
+    <value>동일한 이름 및 동일한 매개 변수가 있는 메서드가 이미 등록되어 있습니다.</value>
+  </data>
+  <data name="ErrorWritingJsonRpcResult" xml:space="preserve">
+    <value>JSON RPC 결과를 쓰는 동안 오류 발생: {0}:{1}</value>
+  </data>
+  <data name="ClientProxyTypeArgumentMustBeAnInterface" xml:space="preserve">
+    <value>"{0}"은(는) 인터페이스가 아닙니다.</value>
+  </data>
+  <data name="UnsupportedGenericMethodsOnClientProxyInterface" xml:space="preserve">
+    <value>제네릭 메서드는 지원되지 않습니다.</value>
+  </data>
+  <data name="FindIProgressOfTError" xml:space="preserve">
+    <value>Unable to cast given Type to IProgress&lt;T&gt;</value>
+  </data>
+  <data name="UnsupportedMethodReturnTypeOnClientProxyInterface" xml:space="preserve">
+    <value>"{0}" 메서드에 지원되지 않는 "{1}" 반환 형식이 있습니다. 태스크 반환 메서드만 지원됩니다.</value>
+  </data>
+</root>

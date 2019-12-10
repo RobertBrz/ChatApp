@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>D:\VSREPO\ChatApp\ChatAppClient\ChatAppClient\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>2C1D67739DAF36A7F9BB7AC14C275952018F26729995670AB18E3CB12D19F4F6</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>A353F05CE39AEEA6B83DC8A199234670087B2B4A06EDD98E9352BBBDF5C383E8</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>a3ea4cd5-18f5-4997-a8b4-4e0b59589da9_1.0.0.0_x86__sf7asf24p9at8</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>a3ea4cd5-18f5-4997-a8b4-4e0b59589da9_sf7asf24p9at8!App</RegisteredUserModeAppID>
     <RegisteredPackageID>a3ea4cd5-18f5-4997-a8b4-4e0b59589da9</RegisteredPackageID>
@@ -30,17 +30,209 @@
     <AppXManifest Include="D:\VSREPO\ChatApp\ChatAppClient\ChatAppClient\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-28T15:12:25.002</Modified>
+      <Modified>2019-12-09T14:36:27.542</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\VSREPO\ChatApp\ChatAppClient\ChatAppClient\bin\x86\Debug\ChatAppClient.exe">
       <PackagePath>entrypoint\ChatAppClient.exe</PackagePath>
-      <Modified>2019-11-28T15:12:24.524</Modified>
+      <Modified>2019-12-09T14:36:27.034</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.threading\16.4.16\lib\netstandard2.0\Microsoft.VisualStudio.Threading.dll">
+      <PackagePath>Microsoft.VisualStudio.Threading.dll</PackagePath>
+      <Modified>2019-10-02T17:15:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.threading\16.4.16\lib\netstandard2.0\cs\Microsoft.VisualStudio.Threading.resources.dll">
+      <PackagePath>cs\Microsoft.VisualStudio.Threading.resources.dll</PackagePath>
+      <Modified>2019-10-02T17:15:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.threading\16.4.16\lib\netstandard2.0\de\Microsoft.VisualStudio.Threading.resources.dll">
+      <PackagePath>de\Microsoft.VisualStudio.Threading.resources.dll</PackagePath>
+      <Modified>2019-10-02T17:15:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.threading\16.4.16\lib\netstandard2.0\es\Microsoft.VisualStudio.Threading.resources.dll">
+      <PackagePath>es\Microsoft.VisualStudio.Threading.resources.dll</PackagePath>
+      <Modified>2019-10-02T17:15:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.threading\16.4.16\lib\netstandard2.0\fr\Microsoft.VisualStudio.Threading.resources.dll">
+      <PackagePath>fr\Microsoft.VisualStudio.Threading.resources.dll</PackagePath>
+      <Modified>2019-10-02T17:15:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.threading\16.4.16\lib\netstandard2.0\it\Microsoft.VisualStudio.Threading.resources.dll">
+      <PackagePath>it\Microsoft.VisualStudio.Threading.resources.dll</PackagePath>
+      <Modified>2019-10-02T17:15:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.threading\16.4.16\lib\netstandard2.0\ja\Microsoft.VisualStudio.Threading.resources.dll">
+      <PackagePath>ja\Microsoft.VisualStudio.Threading.resources.dll</PackagePath>
+      <Modified>2019-10-02T17:15:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.threading\16.4.16\lib\netstandard2.0\ko\Microsoft.VisualStudio.Threading.resources.dll">
+      <PackagePath>ko\Microsoft.VisualStudio.Threading.resources.dll</PackagePath>
+      <Modified>2019-10-02T17:15:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.threading\16.4.16\lib\netstandard2.0\pl\Microsoft.VisualStudio.Threading.resources.dll">
+      <PackagePath>pl\Microsoft.VisualStudio.Threading.resources.dll</PackagePath>
+      <Modified>2019-10-02T17:15:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.threading\16.4.16\lib\netstandard2.0\pt-BR\Microsoft.VisualStudio.Threading.resources.dll">
+      <PackagePath>pt-BR\Microsoft.VisualStudio.Threading.resources.dll</PackagePath>
+      <Modified>2019-10-02T17:15:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.threading\16.4.16\lib\netstandard2.0\ru\Microsoft.VisualStudio.Threading.resources.dll">
+      <PackagePath>ru\Microsoft.VisualStudio.Threading.resources.dll</PackagePath>
+      <Modified>2019-10-02T17:16:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.threading\16.4.16\lib\netstandard2.0\tr\Microsoft.VisualStudio.Threading.resources.dll">
+      <PackagePath>tr\Microsoft.VisualStudio.Threading.resources.dll</PackagePath>
+      <Modified>2019-10-02T17:15:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.threading\16.4.16\lib\netstandard2.0\zh-Hans\Microsoft.VisualStudio.Threading.resources.dll">
+      <PackagePath>zh-Hans\Microsoft.VisualStudio.Threading.resources.dll</PackagePath>
+      <Modified>2019-10-02T17:15:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.threading\16.4.16\lib\netstandard2.0\zh-Hant\Microsoft.VisualStudio.Threading.resources.dll">
+      <PackagePath>zh-Hant\Microsoft.VisualStudio.Threading.resources.dll</PackagePath>
+      <Modified>2019-10-02T17:15:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.utilities\16.4.29519.181\lib\net46\Microsoft.VisualStudio.Utilities.dll">
+      <PackagePath>Microsoft.VisualStudio.Utilities.dll</PackagePath>
+      <Modified>2019-11-19T18:57:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.validation\15.5.31\lib\netstandard2.0\Microsoft.VisualStudio.Validation.dll">
+      <PackagePath>Microsoft.VisualStudio.Validation.dll</PackagePath>
+      <Modified>2019-08-19T13:26:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.validation\15.5.31\lib\netstandard2.0\cs\Microsoft.VisualStudio.Validation.resources.dll">
+      <PackagePath>cs\Microsoft.VisualStudio.Validation.resources.dll</PackagePath>
+      <Modified>2019-08-19T13:26:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.validation\15.5.31\lib\netstandard2.0\de\Microsoft.VisualStudio.Validation.resources.dll">
+      <PackagePath>de\Microsoft.VisualStudio.Validation.resources.dll</PackagePath>
+      <Modified>2019-08-19T13:26:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.validation\15.5.31\lib\netstandard2.0\es\Microsoft.VisualStudio.Validation.resources.dll">
+      <PackagePath>es\Microsoft.VisualStudio.Validation.resources.dll</PackagePath>
+      <Modified>2019-08-19T13:26:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.validation\15.5.31\lib\netstandard2.0\fr\Microsoft.VisualStudio.Validation.resources.dll">
+      <PackagePath>fr\Microsoft.VisualStudio.Validation.resources.dll</PackagePath>
+      <Modified>2019-08-19T13:26:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.validation\15.5.31\lib\netstandard2.0\it\Microsoft.VisualStudio.Validation.resources.dll">
+      <PackagePath>it\Microsoft.VisualStudio.Validation.resources.dll</PackagePath>
+      <Modified>2019-08-19T13:26:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.validation\15.5.31\lib\netstandard2.0\ja\Microsoft.VisualStudio.Validation.resources.dll">
+      <PackagePath>ja\Microsoft.VisualStudio.Validation.resources.dll</PackagePath>
+      <Modified>2019-08-19T13:26:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.validation\15.5.31\lib\netstandard2.0\ko\Microsoft.VisualStudio.Validation.resources.dll">
+      <PackagePath>ko\Microsoft.VisualStudio.Validation.resources.dll</PackagePath>
+      <Modified>2019-08-19T13:26:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.validation\15.5.31\lib\netstandard2.0\pl\Microsoft.VisualStudio.Validation.resources.dll">
+      <PackagePath>pl\Microsoft.VisualStudio.Validation.resources.dll</PackagePath>
+      <Modified>2019-08-19T13:26:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.validation\15.5.31\lib\netstandard2.0\pt-BR\Microsoft.VisualStudio.Validation.resources.dll">
+      <PackagePath>pt-BR\Microsoft.VisualStudio.Validation.resources.dll</PackagePath>
+      <Modified>2019-08-19T13:26:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.validation\15.5.31\lib\netstandard2.0\ru\Microsoft.VisualStudio.Validation.resources.dll">
+      <PackagePath>ru\Microsoft.VisualStudio.Validation.resources.dll</PackagePath>
+      <Modified>2019-08-19T13:26:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.validation\15.5.31\lib\netstandard2.0\tr\Microsoft.VisualStudio.Validation.resources.dll">
+      <PackagePath>tr\Microsoft.VisualStudio.Validation.resources.dll</PackagePath>
+      <Modified>2019-08-19T13:26:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.validation\15.5.31\lib\netstandard2.0\zh-Hans\Microsoft.VisualStudio.Validation.resources.dll">
+      <PackagePath>zh-Hans\Microsoft.VisualStudio.Validation.resources.dll</PackagePath>
+      <Modified>2019-08-19T13:26:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.validation\15.5.31\lib\netstandard2.0\zh-Hant\Microsoft.VisualStudio.Validation.resources.dll">
+      <PackagePath>zh-Hant\Microsoft.VisualStudio.Validation.resources.dll</PackagePath>
+      <Modified>2019-08-19T13:26:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.win32.registry\4.5.0\runtimes\win\lib\netstandard2.0\Microsoft.Win32.Registry.dll">
+      <PackagePath>Microsoft.Win32.Registry.dll</PackagePath>
+      <Modified>2018-05-15T11:29:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\nerdbank.streams\2.4.32\lib\netstandard2.0\Nerdbank.Streams.dll">
+      <PackagePath>Nerdbank.Streams.dll</PackagePath>
+      <Modified>1979-12-31T23:00:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\newtonsoft.json\12.0.2\lib\netstandard2.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2019-04-21T23:06:16.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2019-07-22T12:01:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\streamjsonrpc\2.2.34\lib\netstandard2.0\StreamJsonRpc.dll">
+      <PackagePath>StreamJsonRpc.dll</PackagePath>
+      <Modified>2019-10-02T16:36:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\streamjsonrpc\2.2.34\lib\netstandard2.0\cs\StreamJsonRpc.resources.dll">
+      <PackagePath>cs\StreamJsonRpc.resources.dll</PackagePath>
+      <Modified>2019-10-02T16:36:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\streamjsonrpc\2.2.34\lib\netstandard2.0\de\StreamJsonRpc.resources.dll">
+      <PackagePath>de\StreamJsonRpc.resources.dll</PackagePath>
+      <Modified>2019-10-02T16:36:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\streamjsonrpc\2.2.34\lib\netstandard2.0\es\StreamJsonRpc.resources.dll">
+      <PackagePath>es\StreamJsonRpc.resources.dll</PackagePath>
+      <Modified>2019-10-02T16:39:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\streamjsonrpc\2.2.34\lib\netstandard2.0\fr\StreamJsonRpc.resources.dll">
+      <PackagePath>fr\StreamJsonRpc.resources.dll</PackagePath>
+      <Modified>2019-10-02T16:36:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\streamjsonrpc\2.2.34\lib\netstandard2.0\it\StreamJsonRpc.resources.dll">
+      <PackagePath>it\StreamJsonRpc.resources.dll</PackagePath>
+      <Modified>2019-10-02T16:36:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\streamjsonrpc\2.2.34\lib\netstandard2.0\ja\StreamJsonRpc.resources.dll">
+      <PackagePath>ja\StreamJsonRpc.resources.dll</PackagePath>
+      <Modified>2019-10-02T16:36:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\streamjsonrpc\2.2.34\lib\netstandard2.0\ko\StreamJsonRpc.resources.dll">
+      <PackagePath>ko\StreamJsonRpc.resources.dll</PackagePath>
+      <Modified>2019-10-02T16:36:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\streamjsonrpc\2.2.34\lib\netstandard2.0\pl\StreamJsonRpc.resources.dll">
+      <PackagePath>pl\StreamJsonRpc.resources.dll</PackagePath>
+      <Modified>2019-10-02T16:37:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\streamjsonrpc\2.2.34\lib\netstandard2.0\pt-BR\StreamJsonRpc.resources.dll">
+      <PackagePath>pt-BR\StreamJsonRpc.resources.dll</PackagePath>
+      <Modified>2019-10-02T16:36:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\streamjsonrpc\2.2.34\lib\netstandard2.0\ru\StreamJsonRpc.resources.dll">
+      <PackagePath>ru\StreamJsonRpc.resources.dll</PackagePath>
+      <Modified>2019-10-02T16:37:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\streamjsonrpc\2.2.34\lib\netstandard2.0\tr\StreamJsonRpc.resources.dll">
+      <PackagePath>tr\StreamJsonRpc.resources.dll</PackagePath>
+      <Modified>2019-10-02T16:36:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\streamjsonrpc\2.2.34\lib\netstandard2.0\zh-Hans\StreamJsonRpc.resources.dll">
+      <PackagePath>zh-Hans\StreamJsonRpc.resources.dll</PackagePath>
+      <Modified>2019-10-02T16:36:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\streamjsonrpc\2.2.34\lib\netstandard2.0\zh-Hant\StreamJsonRpc.resources.dll">
+      <PackagePath>zh-Hant\StreamJsonRpc.resources.dll</PackagePath>
+      <Modified>2019-10-02T16:37:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\system.io.pipelines\4.5.3\lib\netstandard2.0\System.IO.Pipelines.dll">
+      <PackagePath>System.IO.Pipelines.dll</PackagePath>
+      <Modified>2018-11-29T14:39:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\system.runtime.compilerservices.unsafe\4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
+      <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
+      <Modified>2018-09-18T17:38:10.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
@@ -90,15 +282,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSREPO\ChatApp\ChatAppClient\ChatAppClient\bin\x86\Debug\ChatAppClient.xr.xml">
       <PackagePath>ChatAppClient.xr.xml</PackagePath>
-      <Modified>2019-11-28T15:12:24.322</Modified>
+      <Modified>2019-12-09T14:33:05.433</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSREPO\ChatApp\ChatAppClient\ChatAppClient\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-11-28T15:04:45.103</Modified>
+      <Modified>2019-12-09T14:14:30.451</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSREPO\ChatApp\ChatAppClient\ChatAppClient\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-11-28T15:12:24.330</Modified>
+      <Modified>2019-12-09T14:36:26.827</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -106,11 +298,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSREPO\ChatApp\ChatAppClient\ChatAppClient\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-11-28T14:00:53.843</Modified>
+      <Modified>2019-12-09T13:51:03.948</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSREPO\ChatApp\ChatAppClient\ChatAppClient\bin\x86\Debug\Core\ChatAppClient.exe">
       <PackagePath>ChatAppClient.exe</PackagePath>
-      <Modified>2019-11-28T15:12:24.998</Modified>
+      <Modified>2019-12-09T14:36:27.537</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

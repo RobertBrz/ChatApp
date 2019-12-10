@@ -28,8 +28,152 @@
     <AppxPackagedFile Include="D:\VSREPO\ChatApp\ChatAppClient\ChatAppClient\bin\x86\Debug\ChatAppClient.exe">
       <PackagePath>entrypoint\ChatAppClient.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.threading\16.4.16\lib\netstandard2.0\Microsoft.VisualStudio.Threading.dll">
+      <PackagePath>Microsoft.VisualStudio.Threading.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.threading\16.4.16\lib\netstandard2.0\cs\Microsoft.VisualStudio.Threading.resources.dll">
+      <PackagePath>cs\Microsoft.VisualStudio.Threading.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.threading\16.4.16\lib\netstandard2.0\de\Microsoft.VisualStudio.Threading.resources.dll">
+      <PackagePath>de\Microsoft.VisualStudio.Threading.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.threading\16.4.16\lib\netstandard2.0\es\Microsoft.VisualStudio.Threading.resources.dll">
+      <PackagePath>es\Microsoft.VisualStudio.Threading.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.threading\16.4.16\lib\netstandard2.0\fr\Microsoft.VisualStudio.Threading.resources.dll">
+      <PackagePath>fr\Microsoft.VisualStudio.Threading.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.threading\16.4.16\lib\netstandard2.0\it\Microsoft.VisualStudio.Threading.resources.dll">
+      <PackagePath>it\Microsoft.VisualStudio.Threading.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.threading\16.4.16\lib\netstandard2.0\ja\Microsoft.VisualStudio.Threading.resources.dll">
+      <PackagePath>ja\Microsoft.VisualStudio.Threading.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.threading\16.4.16\lib\netstandard2.0\ko\Microsoft.VisualStudio.Threading.resources.dll">
+      <PackagePath>ko\Microsoft.VisualStudio.Threading.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.threading\16.4.16\lib\netstandard2.0\pl\Microsoft.VisualStudio.Threading.resources.dll">
+      <PackagePath>pl\Microsoft.VisualStudio.Threading.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.threading\16.4.16\lib\netstandard2.0\pt-BR\Microsoft.VisualStudio.Threading.resources.dll">
+      <PackagePath>pt-BR\Microsoft.VisualStudio.Threading.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.threading\16.4.16\lib\netstandard2.0\ru\Microsoft.VisualStudio.Threading.resources.dll">
+      <PackagePath>ru\Microsoft.VisualStudio.Threading.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.threading\16.4.16\lib\netstandard2.0\tr\Microsoft.VisualStudio.Threading.resources.dll">
+      <PackagePath>tr\Microsoft.VisualStudio.Threading.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.threading\16.4.16\lib\netstandard2.0\zh-Hans\Microsoft.VisualStudio.Threading.resources.dll">
+      <PackagePath>zh-Hans\Microsoft.VisualStudio.Threading.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.threading\16.4.16\lib\netstandard2.0\zh-Hant\Microsoft.VisualStudio.Threading.resources.dll">
+      <PackagePath>zh-Hant\Microsoft.VisualStudio.Threading.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.utilities\16.4.29519.181\lib\net46\Microsoft.VisualStudio.Utilities.dll">
+      <PackagePath>Microsoft.VisualStudio.Utilities.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.validation\15.5.31\lib\netstandard2.0\Microsoft.VisualStudio.Validation.dll">
+      <PackagePath>Microsoft.VisualStudio.Validation.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.validation\15.5.31\lib\netstandard2.0\cs\Microsoft.VisualStudio.Validation.resources.dll">
+      <PackagePath>cs\Microsoft.VisualStudio.Validation.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.validation\15.5.31\lib\netstandard2.0\de\Microsoft.VisualStudio.Validation.resources.dll">
+      <PackagePath>de\Microsoft.VisualStudio.Validation.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.validation\15.5.31\lib\netstandard2.0\es\Microsoft.VisualStudio.Validation.resources.dll">
+      <PackagePath>es\Microsoft.VisualStudio.Validation.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.validation\15.5.31\lib\netstandard2.0\fr\Microsoft.VisualStudio.Validation.resources.dll">
+      <PackagePath>fr\Microsoft.VisualStudio.Validation.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.validation\15.5.31\lib\netstandard2.0\it\Microsoft.VisualStudio.Validation.resources.dll">
+      <PackagePath>it\Microsoft.VisualStudio.Validation.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.validation\15.5.31\lib\netstandard2.0\ja\Microsoft.VisualStudio.Validation.resources.dll">
+      <PackagePath>ja\Microsoft.VisualStudio.Validation.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.validation\15.5.31\lib\netstandard2.0\ko\Microsoft.VisualStudio.Validation.resources.dll">
+      <PackagePath>ko\Microsoft.VisualStudio.Validation.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.validation\15.5.31\lib\netstandard2.0\pl\Microsoft.VisualStudio.Validation.resources.dll">
+      <PackagePath>pl\Microsoft.VisualStudio.Validation.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.validation\15.5.31\lib\netstandard2.0\pt-BR\Microsoft.VisualStudio.Validation.resources.dll">
+      <PackagePath>pt-BR\Microsoft.VisualStudio.Validation.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.validation\15.5.31\lib\netstandard2.0\ru\Microsoft.VisualStudio.Validation.resources.dll">
+      <PackagePath>ru\Microsoft.VisualStudio.Validation.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.validation\15.5.31\lib\netstandard2.0\tr\Microsoft.VisualStudio.Validation.resources.dll">
+      <PackagePath>tr\Microsoft.VisualStudio.Validation.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.validation\15.5.31\lib\netstandard2.0\zh-Hans\Microsoft.VisualStudio.Validation.resources.dll">
+      <PackagePath>zh-Hans\Microsoft.VisualStudio.Validation.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.validation\15.5.31\lib\netstandard2.0\zh-Hant\Microsoft.VisualStudio.Validation.resources.dll">
+      <PackagePath>zh-Hant\Microsoft.VisualStudio.Validation.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.win32.registry\4.5.0\runtimes\win\lib\netstandard2.0\Microsoft.Win32.Registry.dll">
+      <PackagePath>Microsoft.Win32.Registry.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\nerdbank.streams\2.4.32\lib\netstandard2.0\Nerdbank.Streams.dll">
+      <PackagePath>Nerdbank.Streams.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\newtonsoft.json\12.0.2\lib\netstandard2.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\streamjsonrpc\2.2.34\lib\netstandard2.0\StreamJsonRpc.dll">
+      <PackagePath>StreamJsonRpc.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\streamjsonrpc\2.2.34\lib\netstandard2.0\cs\StreamJsonRpc.resources.dll">
+      <PackagePath>cs\StreamJsonRpc.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\streamjsonrpc\2.2.34\lib\netstandard2.0\de\StreamJsonRpc.resources.dll">
+      <PackagePath>de\StreamJsonRpc.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\streamjsonrpc\2.2.34\lib\netstandard2.0\es\StreamJsonRpc.resources.dll">
+      <PackagePath>es\StreamJsonRpc.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\streamjsonrpc\2.2.34\lib\netstandard2.0\fr\StreamJsonRpc.resources.dll">
+      <PackagePath>fr\StreamJsonRpc.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\streamjsonrpc\2.2.34\lib\netstandard2.0\it\StreamJsonRpc.resources.dll">
+      <PackagePath>it\StreamJsonRpc.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\streamjsonrpc\2.2.34\lib\netstandard2.0\ja\StreamJsonRpc.resources.dll">
+      <PackagePath>ja\StreamJsonRpc.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\streamjsonrpc\2.2.34\lib\netstandard2.0\ko\StreamJsonRpc.resources.dll">
+      <PackagePath>ko\StreamJsonRpc.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\streamjsonrpc\2.2.34\lib\netstandard2.0\pl\StreamJsonRpc.resources.dll">
+      <PackagePath>pl\StreamJsonRpc.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\streamjsonrpc\2.2.34\lib\netstandard2.0\pt-BR\StreamJsonRpc.resources.dll">
+      <PackagePath>pt-BR\StreamJsonRpc.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\streamjsonrpc\2.2.34\lib\netstandard2.0\ru\StreamJsonRpc.resources.dll">
+      <PackagePath>ru\StreamJsonRpc.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\streamjsonrpc\2.2.34\lib\netstandard2.0\tr\StreamJsonRpc.resources.dll">
+      <PackagePath>tr\StreamJsonRpc.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\streamjsonrpc\2.2.34\lib\netstandard2.0\zh-Hans\StreamJsonRpc.resources.dll">
+      <PackagePath>zh-Hans\StreamJsonRpc.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\streamjsonrpc\2.2.34\lib\netstandard2.0\zh-Hant\StreamJsonRpc.resources.dll">
+      <PackagePath>zh-Hant\StreamJsonRpc.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\system.io.pipelines\4.5.3\lib\netstandard2.0\System.IO.Pipelines.dll">
+      <PackagePath>System.IO.Pipelines.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\system.runtime.compilerservices.unsafe\4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
+      <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>

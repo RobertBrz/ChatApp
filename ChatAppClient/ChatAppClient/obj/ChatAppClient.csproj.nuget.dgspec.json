@@ -42,6 +42,10 @@
             "Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",
               "version": "[6.2.9, )"
+            },
+            "Microsoft.VisualStudio.Utilities": {
+              "target": "Package",
+              "version": "[16.4.29519.181, )"
             }
           },
           "imports": [

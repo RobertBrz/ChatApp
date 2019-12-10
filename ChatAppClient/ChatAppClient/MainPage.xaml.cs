@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Microsoft.VisualStudio.PlatformUI;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -22,44 +24,36 @@ namespace ChatAppClient
     /// </summary>
     public sealed partial class MainPage : Page
     {
-        List<Contact> contacts = new List<Contact>();
+        ObservableCollection<Contact> contacts = new ObservableCollection<Contact>();
         Contact pickedcontact = null;
 
-        List<Contact> Contacts { get => contacts; set => contacts = value; }
+
         public MainPage()
         {
             this.InitializeComponent();
-            Start();
-        }
+            Connection connection = new Connection();
+            connection.Connect();
+            //   contacts = new ObservableCollection<Contact>();
 
-        void Start()
-        {
-            
         }
 
         private void ShowPane(object sender, RoutedEventArgs e)
         {
-
             if (SplitViewPanel_Menu.IsPaneOpen == false)
             {
                 SplitViewPanel_Menu.IsPaneOpen = true;
-                Button_ShowMenu.Content = "\uE00E";
+                ButtonShowPane.Content = "\uE00E";
             }
             else
             {
                 SplitViewPanel_Menu.IsPaneOpen = false;
-                Button_ShowMenu.Content = "\uE00F";
+                ButtonShowPane.Content = "\uE00F";
             }
         }
 
         private void Settings_Click(object sender, RoutedEventArgs e)
         {
-            Connection connection = new Connection();
-            connection.Connect();
-            Contact contact1 = new Contact("name1", "surname1");
-            Contact contact2 = new Contact("marcin", "nowak");
-            contacts.Add(contact1);
-            contacts.Add(contact2);
+
         }
 
         private void ListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -69,17 +63,21 @@ namespace ChatAppClient
                 ListView listView = (ListView)sender;
                 var pickeditem = listView.SelectedItem;
                 pickedcontact = (Contact)pickeditem;
+                PickedName.Text = pickedcontact.name;
+                PickedSurname.Text = pickedcontact.surname;
             }
             catch (Exception ex)
             {
 
             }
-            this.UpdateLayout();
         }
 
-        private void ListView_Tapped(object sender, TappedRoutedEventArgs e)
+        private void Click_AddContact(object sender, RoutedEventArgs e)
         {
-
+            Contact con = new Contact("nam11", "surname2");
+            contacts.Add(con);
+            Contact con2 = new Contact("xxxxxxxx", "ddddddd");
+            contacts.Add(con2);
         }
     }
 }

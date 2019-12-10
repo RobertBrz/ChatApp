@@ -23,6 +23,8 @@ namespace ChatAppServer
         public MainWindow()
         {
             InitializeComponent();
+            Listener listener = new Listener();
+            listener.StartListening();
         }
     }
 }

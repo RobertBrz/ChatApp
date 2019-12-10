@@ -8,68 +8,98 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <SplitView x:ConnectionId='2'  x:Name="SplitViewPanel_Menu" DisplayMode="CompactOverlay" IsPaneOpen="False" CompactPaneLength="50" OpenPaneLength="150">
-            <SplitView.Pane>
-                <StackPanel Background="Gray">
-                    <Button x:ConnectionId='3' x:Name="Button_ShowMenu" FontFamily="Segeo MDL2 Assets" Content="&#xF00F;" Width="50" Height="50" Background="Transparent"                  />
-                    <StackPanel Orientation="Horizontal">
-                        <Button x:ConnectionId='5' x:Name="favourite" FontFamily="Segeo MDL2 Assets" Content="&#xE715;" Width="50" Height="50" Background="Transparent"                  />
-                        <TextBlock Text="Images" FontSize="18" VerticalAlignment="Center"/>
-                    </StackPanel>
-                    <!--<StackPanel Orientation="Horizontal">
-                        <Button x:Name="menu" FontFamily="Segeo MDL2 Assets" Content="&#xE1CE;" Width="50" Height="50" Background="Transparent" Click="clickmenu" />
-                        <TextBlock Text="Message" FontSize="18" VerticalAlignment="Center"/>
-                    </StackPanel>-->
-                    <StackPanel Orientation="Horizontal">
-                        <Button x:ConnectionId='4' x:Name="settings" FontFamily="Segeo MDL2 Assets"   Content="&#xE713;" Width="50" Height="50" Background="Transparent"                        />
-                        <TextBlock Text="Settings" FontSize="18" VerticalAlignment="Center"/>
-                    </StackPanel>
-                </StackPanel>
-            </SplitView.Pane>
-            <SplitView.Content>
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="1*"/>
-                        <ColumnDefinition Width="2*"/>
-                    </Grid.ColumnDefinitions>
-                    <Grid Grid.Column="0">
-                        <ListView x:ConnectionId='8' ItemsSource="{Binding contacts}"                                                >
-                            <ListView.ItemTemplate>
-                                <DataTemplate x:Name="ContactsData"                           >
-                                    <StackPanel Orientation="Horizontal" Height="64"  AutomationProperties.Name="{Binding name}" >
-                                        <Ellipse Height="48" Width="48" VerticalAlignment="Center">
-                                            <Ellipse.Fill>
-                                                <ImageBrush ImageSource="{Binding imagesource}"/>
-                                            </Ellipse.Fill>
-                                        </Ellipse>
-                                        <StackPanel Orientation="Vertical" VerticalAlignment="Center" >
-                                            <TextBlock Text="{Binding  name }" Style="{ThemeResource BaseTextBlockStyle}" Foreground="{ThemeResource SystemControlPageTextBaseHighBrush}"/>
-                                            <TextBlock Text="{Binding surname}" Style="{ThemeResource BaseTextBlockStyle}" Foreground="{ThemeResource SystemControlPageTextBaseMediumBrush}"/>
-                                        </StackPanel>
-                                    </StackPanel>
-                                </DataTemplate>
-                            </ListView.ItemTemplate>
-                        </ListView>
-                    </Grid>
-                    <Grid Grid.Column="1">
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="1*"/>
-                            <RowDefinition Height="20*"/>
-                        </Grid.RowDefinitions>
-                        <Grid Grid.Row="0" Background="Azure">
-                            <StackPanel Orientation="Vertical" >
-                                <TextBlock x:ConnectionId='6' x:Name="PickedName"                                      />
-                                <TextBlock x:ConnectionId='7' x:Name="Status"                                                />
-                            </StackPanel>
-                        </Grid>
-                        <Grid Grid.Row="1">
+    <Grid >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="3*" />
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="9*"/>
+            </Grid.RowDefinitions>
 
-                        </Grid>
-                    </Grid>
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="4*"/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0">
+                    <Button x:ConnectionId='15' x:Name="ButtonShowPane"                  Content="&#xE715;"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
                 </Grid>
-            </SplitView.Content>
-        </SplitView>
+            </Grid>
+            <Grid Grid.Row="1">
+                <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+                    <SplitView x:ConnectionId='5'  x:Name="SplitViewPanel_Menu" DisplayMode="CompactOverlay" IsPaneOpen="False" CompactPaneLength="0" OpenPaneLength="150">
+                        <SplitView.Pane>
+                            <StackPanel Background="Gray">
+                                <!--<Button x:Name="Button_ShowMenu" FontFamily="Segeo MDL2 Assets" Content="&#xF00F;" Width="50" Height="50" Background="Transparent" Click="ShowPane" />-->
+                                <StackPanel Orientation="Horizontal">
+                                    <Button x:ConnectionId='8' x:Name="Images" FontFamily="Segeo MDL2 Assets" Content="&#xE715;" Width="50" Height="50" Background="Transparent"  />
+                                    <TextBlock Text="Images" FontSize="18" VerticalAlignment="Center"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal">
+                                    <Button x:ConnectionId='7' x:Name="settings" FontFamily="Segeo MDL2 Assets"   Content="&#xE713;" Width="50" Height="50" Background="Transparent"                        />
+                                    <TextBlock Text="Settings" FontSize="18" VerticalAlignment="Center"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal">
+                                    <Button x:ConnectionId='6' x:Name="Button_Addcontact" FontFamily="Segeo MDL2 Assets" Content="&#xE1CE;" Width="50" Height="50" Background="Transparent"                          />
+                                    <TextBlock Text="Add Contact" FontSize="18" VerticalAlignment="Center"/>
+                                </StackPanel>
+                            </StackPanel>
+                        </SplitView.Pane>
+                        <SplitView.Content>
+                            <ListView x:ConnectionId='9' x:Name="lsitviewcontacts"                                                                                   >
+                                <ListView.ItemTemplate>
+                                    <DataTemplate x:Name="ContactsData"                               >
+                                        <StackPanel x:ConnectionId='11' Orientation="Horizontal" Height="64">
+                                            <Ellipse Height="48" Width="48" VerticalAlignment="Center">
+                                                <Ellipse.Fill>
+                                                    <ImageBrush x:ConnectionId='14'                                    />
+                                                </Ellipse.Fill>
+                                            </Ellipse>
+                                            <StackPanel Orientation="Vertical" VerticalAlignment="Center"  >
+                                                <TextBlock x:ConnectionId='12' x:Name="PickedName"                       Style="{ThemeResource BaseTextBlockStyle}" Foreground="{ThemeResource SystemControlPageTextBaseHighBrush}"/>
+                                                <TextBlock x:ConnectionId='13' x:Name="PicekdSurname"                         Style="{ThemeResource BaseTextBlockStyle}" Foreground="{ThemeResource SystemControlPageTextBaseMediumBrush}"/>
+                                            </StackPanel>
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
+                            </ListView>
+                        </SplitView.Content>
+                    </SplitView>
+                </Grid>
+            </Grid>
+        </Grid>
+        <Grid Grid.Column="1">
+            <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+                <SplitView x:ConnectionId='2'  x:Name="SplitViewPanel_Info" DisplayMode="CompactOverlay" IsPaneOpen="False"  HorizontalAlignment="Stretch"  VerticalAlignment="Top" Background="gray">
+                    <StackPanel Orientation="Vertical"  >
+                        <TextBlock x:ConnectionId='3' x:Name="PickedName"                                      />
+                        <TextBlock x:ConnectionId='4' x:Name="PickedSurname"                                                />
+                    </StackPanel>
+                </SplitView>
+            </Grid>
+
+
+            <!--<Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="20*"/>
+                </Grid.RowDefinitions>
+                
+                
+                
+                <Grid Grid.Row="0" Background="Azure">
+                    
+                </Grid>
+                <Grid Grid.Row="1">
+
+                </Grid>-->
+
+        </Grid>
     </Grid>
+
+
+
 </Page>
 

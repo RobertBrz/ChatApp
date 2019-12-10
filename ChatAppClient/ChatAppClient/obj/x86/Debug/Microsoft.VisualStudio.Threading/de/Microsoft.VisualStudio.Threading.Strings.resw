@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SyncContextFrameMismatchedAffinity" xml:space="preserve">
+    <value>Dieser Frame wurde bereits mit einer anderen Instanz verwendet.</value>
+  </data>
+  <data name="JoinableTaskContextAndCollectionMismatch" xml:space="preserve">
+    <value>JoinableTask gehört nicht zu dem Kontext, mit dem diese Sammlung instanziiert wurde.</value>
+  </data>
+  <data name="LazyValueFaulted" xml:space="preserve">
+    <value>Fehler bei verzögert erstelltem Wert während der Konstruktion.</value>
+  </data>
+  <data name="SwitchToMainThreadFailedToReachExpectedThread" xml:space="preserve">
+    <value>Fehler beim Versuch, zum Hauptthread zu wechseln, um den erwarteten Thread zu erreichen. Wurde der JoinableTaskContext für den falschen Thread oder mit einem SynchronizationContext initialisiert, dessen Post-Methode ihren Delegaten nicht für den Hauptthread ausführt?</value>
+  </data>
+  <data name="PushFromWrongThread" xml:space="preserve">
+    <value>Die Ereignisschleife kann nur über den ursprünglichen Thread ausgeführt werden.</value>
+  </data>
+  <data name="CannotUpgradeNonUpgradeableLock" xml:space="preserve">
+    <value>Eine nicht aktualisierbare Lesesperre wird vom Aufrufer gehalten und kann nicht aktualisiert werden.</value>
+  </data>
+  <data name="JoinableTaskContextNodeAlreadyRegistered" xml:space="preserve">
+    <value>Dieser Knoten ist bereits registriert.</value>
+  </data>
+  <data name="InvalidLock" xml:space="preserve">
+    <value>Dieser Vorgang kann nur für eine gültige Sperre ausgeführt werden.</value>
+  </data>
+  <data name="NotAllowedUnderURorWLock" xml:space="preserve">
+    <value>Dieser Vorgang ist unzulässig, wenn eine aktive und aktualisierbare Lese- oder Schreibsperre durch ein AsyncReaderWriterLock-Objekt aufrecht erhalten wird.</value>
+  </data>
+  <data name="SemaphoreMisused" xml:space="preserve">
+    <value>Dieser Semaphor wurde falsch verwendet und kann nicht länger genutzt werden.</value>
+  </data>
+  <data name="LockCompletionAlreadyRequested" xml:space="preserve">
+    <value>Diese Sperre wurde bereits für den Abschluss markiert.  Es können keine neuen Sperren auf oberster Ebene verarbeitet werden.</value>
+  </data>
+  <data name="InvalidAfterCompleted" xml:space="preserve">
+    <value>Der Übergang in den Status "Abgeschlossen" ist bereits erfolgt.</value>
+  </data>
+  <data name="FrameMustBePushedFirst" xml:space="preserve">
+    <value>Diese Instanz muss zuerst gepusht werden.</value>
+  </data>
+  <data name="STAThreadCallerNotAllowed" xml:space="preserve">
+    <value>Dieser Vorgang kann in einem STA-Thread nicht abgeschlossen werden.</value>
+  </data>
+  <data name="ValueFactoryReentrancy" xml:space="preserve">
+    <value>Die Wertfactory hat den Wert für die gleiche Instanz aufgerufen.</value>
+  </data>
+  <data name="LazyValueNotCreated" xml:space="preserve">
+    <value>Es wurde noch kein verzögert erstellter Wert konstruiert.</value>
+  </data>
+  <data name="AppliedSynchronizationContextNotAllowed" xml:space="preserve">
+    <value>Das Abrufen von Sperren für Threads, auf die ein SynchronizationContext angewendet wurde, ist unzulässig.</value>
+  </data>
+  <data name="InvalidWithoutLock" xml:space="preserve">
+    <value>Eine Sperre ist erforderlich.</value>
+  </data>
+  <data name="SemaphoreStackNestingViolated" xml:space="preserve">
+    <value>Geschachtelte Semaphoranforderungen müssen in LIFO-Reihenfolge angegeben werden, wenn die Einstellung für die Eintrittsinvarianz "{0}" lautet.</value>
+  </data>
+  <data name="DangerousReadLockRequestFromWriteLockFork" xml:space="preserve">
+    <value>Gefährliche Anforderung einer Lesesperre von der Verzweigung einer Schreibsperre.</value>
+  </data>
+  <data name="QueueEmpty" xml:space="preserve">
+    <value>Die Warteschlange ist leer.</value>
+  </data>
+</root>

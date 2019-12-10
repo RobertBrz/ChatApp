@@ -22,6 +22,19 @@
   </Dependencies>
   <Resources>
     <Resource Language="EN-US" />
+    <Resource Language="CS" />
+    <Resource Language="DE" />
+    <Resource Language="ES" />
+    <Resource Language="FR" />
+    <Resource Language="IT" />
+    <Resource Language="JA" />
+    <Resource Language="KO" />
+    <Resource Language="PL" />
+    <Resource Language="PT-BR" />
+    <Resource Language="RU" />
+    <Resource Language="TR" />
+    <Resource Language="ZH-HANS" />
+    <Resource Language="ZH-HANT" />
   </Resources>
   <Applications>
     <Application Id="App" Executable="ChatAppClient.exe" EntryPoint="ChatAppClient.App">

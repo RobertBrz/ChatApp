@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SyncContextFrameMismatchedAffinity" xml:space="preserve">
+    <value>Tento rámec byl použit už u jiné instance.</value>
+  </data>
+  <data name="JoinableTaskContextAndCollectionMismatch" xml:space="preserve">
+    <value>Připojitelný úkol nepatří do kontextu, v jakém se vytvořila instance této kolekce.</value>
+  </data>
+  <data name="LazyValueFaulted" xml:space="preserve">
+    <value>Laxně vytvářená hodnota byla při vytváření vyhodnocena jako chybná.</value>
+  </data>
+  <data name="SwitchToMainThreadFailedToReachExpectedThread" xml:space="preserve">
+    <value>Při pokusu o přepnutí na hlavní vlákno se nepodařilo připojení k očekávanému vláknu. Byl objekt JoinableTaskContext inicializován na chybném vlákně nebo s objektem SynchronizationContext, jehož metoda Post nespouští jeho delegáta v hlavním vláknu?</value>
+  </data>
+  <data name="PushFromWrongThread" xml:space="preserve">
+    <value>Pumpu zpráv lze spustit jenom z původního vlákna.</value>
+  </data>
+  <data name="CannotUpgradeNonUpgradeableLock" xml:space="preserve">
+    <value>Volající nastavil neupgradovatelný zámek čtení. Nelze provést jeho upgrade.</value>
+  </data>
+  <data name="JoinableTaskContextNodeAlreadyRegistered" xml:space="preserve">
+    <value>Tento uzel je už zaregistrovaný.</value>
+  </data>
+  <data name="InvalidLock" xml:space="preserve">
+    <value>Tuto operaci lze provést pouze v případě platného zámku.</value>
+  </data>
+  <data name="NotAllowedUnderURorWLock" xml:space="preserve">
+    <value>Tato operace není povolena, pokud je aktivní upgradovatelný zámek čtení nebo zápisu z AsyncReaderWriterLock.</value>
+  </data>
+  <data name="SemaphoreMisused" xml:space="preserve">
+    <value>Tento semafor byl zneužit a není možné ho nadále používat.</value>
+  </data>
+  <data name="LockCompletionAlreadyRequested" xml:space="preserve">
+    <value>Tento zámek již byl označen k dokončení.  Nelze obsloužit žádné nové zámky na nejvyšší úrovni.</value>
+  </data>
+  <data name="InvalidAfterCompleted" xml:space="preserve">
+    <value>Už přešlo do stavu Dokončeno.</value>
+  </data>
+  <data name="FrameMustBePushedFirst" xml:space="preserve">
+    <value>Tato instance se napřed musí nasdílet.</value>
+  </data>
+  <data name="STAThreadCallerNotAllowed" xml:space="preserve">
+    <value>Tato operace se nedá dokončit ve vlákně STA.</value>
+  </data>
+  <data name="ValueFactoryReentrancy" xml:space="preserve">
+    <value>Objekt pro vytváření hodnot zavolal hodnotu pro stejnou instanci.</value>
+  </data>
+  <data name="LazyValueNotCreated" xml:space="preserve">
+    <value>Laxně vytvářená hodnota ještě nebyla vytvořena.</value>
+  </data>
+  <data name="AppliedSynchronizationContextNotAllowed" xml:space="preserve">
+    <value>Získání zámků vláken s použitým kontextem synchronizace není povolené.</value>
+  </data>
+  <data name="InvalidWithoutLock" xml:space="preserve">
+    <value>Vyžaduje se zámek.</value>
+  </data>
+  <data name="SemaphoreStackNestingViolated" xml:space="preserve">
+    <value>Vnořené semaforové žádosti se musí být uvolňovat v pořadí LIFO, kdy nastavení vícenásobnému přístupu je: {0}</value>
+  </data>
+  <data name="DangerousReadLockRequestFromWriteLockFork" xml:space="preserve">
+    <value>Nebezpečná žádost o čtení zámků z větve zámku zápisu</value>
+  </data>
+  <data name="QueueEmpty" xml:space="preserve">
+    <value>Tato fronta je prázdná.</value>
+  </data>
+</root>

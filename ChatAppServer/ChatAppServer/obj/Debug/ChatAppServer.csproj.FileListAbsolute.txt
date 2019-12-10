@@ -1,0 +1,14 @@
+D:\VSREPO\ChatApp\ChatAppServer\ChatAppServer\bin\Debug\ChatAppServer.exe.config
+D:\VSREPO\ChatApp\ChatAppServer\ChatAppServer\bin\Debug\ChatAppServer.exe
+D:\VSREPO\ChatApp\ChatAppServer\ChatAppServer\bin\Debug\ChatAppServer.pdb
+D:\VSREPO\ChatApp\ChatAppServer\ChatAppServer\obj\Debug\ChatAppServer.csprojAssemblyReference.cache
+D:\VSREPO\ChatApp\ChatAppServer\ChatAppServer\obj\Debug\MainWindow.g.cs
+D:\VSREPO\ChatApp\ChatAppServer\ChatAppServer\obj\Debug\App.g.cs
+D:\VSREPO\ChatApp\ChatAppServer\ChatAppServer\obj\Debug\ChatAppServer_MarkupCompile.cache
+D:\VSREPO\ChatApp\ChatAppServer\ChatAppServer\obj\Debug\ChatAppServer_MarkupCompile.lref
+D:\VSREPO\ChatApp\ChatAppServer\ChatAppServer\obj\Debug\MainWindow.baml
+D:\VSREPO\ChatApp\ChatAppServer\ChatAppServer\obj\Debug\ChatAppServer.g.resources
+D:\VSREPO\ChatApp\ChatAppServer\ChatAppServer\obj\Debug\ChatAppServer.Properties.Resources.resources
+D:\VSREPO\ChatApp\ChatAppServer\ChatAppServer\obj\Debug\ChatAppServer.csproj.GenerateResource.cache
+D:\VSREPO\ChatApp\ChatAppServer\ChatAppServer\obj\Debug\ChatAppServer.exe
+D:\VSREPO\ChatApp\ChatAppServer\ChatAppServer\obj\Debug\ChatAppServer.pdb
