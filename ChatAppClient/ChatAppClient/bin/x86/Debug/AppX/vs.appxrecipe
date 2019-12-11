@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\VSREPO\ChatApp\ChatAppClient\ChatAppClient\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-12-09T14:36:27.542</Modified>
+      <Modified>2019-12-11T17:40:45.784</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\VSREPO\ChatApp\ChatAppClient\ChatAppClient\bin\x86\Debug\ChatAppClient.exe">
       <PackagePath>entrypoint\ChatAppClient.exe</PackagePath>
-      <Modified>2019-12-09T14:36:27.034</Modified>
+      <Modified>2019-12-11T17:40:45.283</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.threading\16.4.16\lib\netstandard2.0\Microsoft.VisualStudio.Threading.dll">
       <PackagePath>Microsoft.VisualStudio.Threading.dll</PackagePath>
@@ -286,11 +286,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSREPO\ChatApp\ChatAppClient\ChatAppClient\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-12-09T14:14:30.451</Modified>
+      <Modified>2019-12-11T17:39:05.748</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSREPO\ChatApp\ChatAppClient\ChatAppClient\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-12-09T14:36:26.827</Modified>
+      <Modified>2019-12-11T17:39:05.748</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -302,7 +302,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSREPO\ChatApp\ChatAppClient\ChatAppClient\bin\x86\Debug\Core\ChatAppClient.exe">
       <PackagePath>ChatAppClient.exe</PackagePath>
-      <Modified>2019-12-09T14:36:27.537</Modified>
+      <Modified>2019-12-11T17:40:45.780</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

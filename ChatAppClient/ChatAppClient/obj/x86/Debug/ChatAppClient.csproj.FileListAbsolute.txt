@@ -137,3 +137,4 @@ D:\VSREPO\ChatApp\ChatAppClient\ChatAppClient\obj\x86\Debug\qualifiers.txt.inter
 D:\VSREPO\ChatApp\ChatAppClient\ChatAppClient\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 D:\VSREPO\ChatApp\ChatAppClient\ChatAppClient\obj\x86\Debug\ProjectArchitectures.txt
 D:\VSREPO\ChatApp\ChatAppClient\ChatAppClient\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
+D:\VSREPO\ChatApp\ChatAppClient\ChatAppClient\obj\x86\Debug\ChatAppClient.csprojAssemblyReference.cache

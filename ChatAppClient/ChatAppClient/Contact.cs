@@ -10,8 +10,6 @@ namespace ChatAppClient
 {
     class Contact
     {
-        
-
 
         public string name;
         public string surname;

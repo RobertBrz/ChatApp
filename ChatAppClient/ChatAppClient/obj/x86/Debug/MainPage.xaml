@@ -81,7 +81,6 @@
                 </SplitView>
             </Grid>
 
-
             <!--<Grid.RowDefinitions>
                     <RowDefinition Height="1*"/>
                     <RowDefinition Height="20*"/>

@@ -63,20 +63,43 @@ namespace ChatAppServer
             this.mre.Set();
             try
             {
-                IClientObject state;
+                ClientObject client = null;
 
                 lock (this.Clients)
                 {
                     var id = !this.Clients.Any() ? 1 : this.Clients.Keys.Max() + 1;
 
                     Socket clientSocket = (Socket)result.AsyncState;
-                    state = new ClientObject((clientSocket).EndAccept(result), id);
-                    this.Clients.Add(id, state);
-
-                    Console.WriteLine("Client connected. Get Id " + id);
+                    client = new ClientObject((clientSocket).EndAccept(result), id);
+                    this.Clients.Add(id, client);
                 }
 
-                state.Listener.BeginReceive(state.Buffer, 0, state.BufferSize, SocketFlags.None, this.ReceiveCallback, state);
+                client.listener.BeginReceive(client.buffer, 0, client.bufferSize, SocketFlags.None, this.ReceiveCallback, client);
+            }
+            catch (Exception ex)
+            {
+
+            }
+        }
+
+        private void ReceiveCallback(IAsyncResult result)
+        {
+            ClientObject client = null;
+
+            try
+            {
+                client = (ClientObject)result.AsyncState;
+                var receive = client.listener.EndReceive(result);
+                var ipandport = client.listener.RemoteEndPoint;
+
+                if(receive > 0)
+                {
+
+                }
+            }
+            catch (Exception ex)
+            {
+
             }
         }
     }
