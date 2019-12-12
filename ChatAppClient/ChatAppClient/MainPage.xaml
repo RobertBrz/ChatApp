@@ -8,6 +8,8 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
+
+
     <Grid >
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*"/>
@@ -15,22 +17,25 @@
         </Grid.ColumnDefinitions>
         <Grid Grid.Column="0">
             <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
                 <RowDefinition Height="1*"/>
-                <RowDefinition Height="9*"/>
             </Grid.RowDefinitions>
 
             <Grid Grid.Row="0">
                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="40"/>
                     <ColumnDefinition Width="1*"/>
-                    <ColumnDefinition Width="4*"/>
                 </Grid.ColumnDefinitions>
                 <Grid Grid.Column="0">
                     <Button x:Name="ButtonShowPane" Click="ShowPane" Content="&#xE715;"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
                 </Grid>
+                <Grid Grid.Column="1" Background="LightGray">
+                    <TextBox x:Name="Search" Margin="3"  Background="White" CornerRadius="5" TextChanged="Search_TextChanged" BorderThickness="0" PlaceholderText="Search"/>
+                </Grid>
             </Grid>
             <Grid Grid.Row="1">
                 <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-                    <SplitView  x:Name="SplitViewPanel_Menu" DisplayMode="CompactOverlay" IsPaneOpen="False" CompactPaneLength="0" OpenPaneLength="150">
+                    <SplitView  x:Name="SplitViewPanel_Menu" DisplayMode="CompactOverlay" IsPaneOpen="False" Background="LightGray"  CompactPaneLength="0" OpenPaneLength="150">
                         <SplitView.Pane>
                             <StackPanel Background="Gray">
                                 <!--<Button x:Name="Button_ShowMenu" FontFamily="Segeo MDL2 Assets" Content="&#xF00F;" Width="50" Height="50" Background="Transparent" Click="ShowPane" />-->
@@ -48,7 +53,7 @@
                                 </StackPanel>
                             </StackPanel>
                         </SplitView.Pane>
-                        <SplitView.Content>
+                        <SplitView.Content >
                             <ListView x:Name="lsitviewcontacts" ItemsSource="{x:Bind contacts }"  SelectionChanged="ListView_SelectionChanged"    >
                                 <ListView.ItemTemplate>
                                     <DataTemplate x:Name="ContactsData"  x:DataType="local:Contact"   >
@@ -72,28 +77,42 @@
             </Grid>
         </Grid>
         <Grid Grid.Column="1">
-            <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-                <SplitView  x:Name="SplitViewPanel_Info" DisplayMode="CompactOverlay" IsPaneOpen="False"  HorizontalAlignment="Stretch"  VerticalAlignment="Top" Background="gray">
-                    <StackPanel Orientation="Vertical"  >
-                        <TextBlock x:Name="PickedName"   Text="{x:Bind  pickedcontact.name}"/>
-                        <TextBlock x:Name="PickedSurname" Text="{x:Bind pickedcontact.status.ToString()}"/>
-                    </StackPanel>
-                </SplitView>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="40"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0" Background="LightGray">
+                <StackPanel Orientation="Vertical"  >
+                    <TextBlock x:Name="PickedName"   Text="{x:Bind  pickedcontact.name}"/>
+                    <TextBlock x:Name="PickedSurname" Text="{x:Bind pickedcontact.status.ToString()}"/>
+                </StackPanel>
             </Grid>
 
-            <!--<Grid.RowDefinitions>
-                    <RowDefinition Height="1*"/>
-                    <RowDefinition Height="20*"/>
-                </Grid.RowDefinitions>
-                
-                
-                
-                <Grid Grid.Row="0" Background="Azure">
-                    
-                </Grid>
-                <Grid Grid.Row="1">
+            <Grid Grid.Row="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
 
-                </Grid>-->
+                <Grid Grid.Column="0">
+                    <Button x:Name="Attachments" Click="Attachments_Click"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                </Grid>
+                <Grid Grid.Column="1">
+                    <TextBox x:Name="Message" PlaceholderText="Write a message..." BorderThickness="0"  />
+                </Grid>
+
+
+            </Grid>
+
+
+
+            <!--<Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+                <SplitView  x:Name="SplitViewPanel_Info" DisplayMode="CompactOverlay" IsPaneOpen="False"  HorizontalAlignment="Stretch"  VerticalAlignment="Top" Background="gray">
+                    
+                </SplitView>
+            </Grid>-->
+
 
         </Grid>
     </Grid>

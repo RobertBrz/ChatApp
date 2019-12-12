@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\VSREPO\ChatApp\ChatAppClient\ChatAppClient\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-12-11T17:40:45.784</Modified>
+      <Modified>2019-12-12T14:59:24.021</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\VSREPO\ChatApp\ChatAppClient\ChatAppClient\bin\x86\Debug\ChatAppClient.exe">
       <PackagePath>entrypoint\ChatAppClient.exe</PackagePath>
-      <Modified>2019-12-11T17:40:45.283</Modified>
+      <Modified>2019-12-12T14:59:21.310</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.visualstudio.threading\16.4.16\lib\netstandard2.0\Microsoft.VisualStudio.Threading.dll">
       <PackagePath>Microsoft.VisualStudio.Threading.dll</PackagePath>
@@ -226,6 +226,10 @@
       <PackagePath>zh-Hant\StreamJsonRpc.resources.dll</PackagePath>
       <Modified>2019-10-02T16:37:06.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\system.drawing.common\4.7.0\lib\netstandard2.0\System.Drawing.Common.dll">
+      <PackagePath>System.Drawing.Common.dll</PackagePath>
+      <Modified>2018-09-18T17:38:14.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\system.io.pipelines\4.5.3\lib\netstandard2.0\System.IO.Pipelines.dll">
       <PackagePath>System.IO.Pipelines.dll</PackagePath>
       <Modified>2018-11-29T14:39:14.000</Modified>
@@ -282,15 +286,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSREPO\ChatApp\ChatAppClient\ChatAppClient\bin\x86\Debug\ChatAppClient.xr.xml">
       <PackagePath>ChatAppClient.xr.xml</PackagePath>
-      <Modified>2019-12-09T14:33:05.433</Modified>
+      <Modified>2019-12-12T14:59:21.059</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSREPO\ChatApp\ChatAppClient\ChatAppClient\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-12-11T17:39:05.748</Modified>
+      <Modified>2019-12-12T14:58:53.818</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSREPO\ChatApp\ChatAppClient\ChatAppClient\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-12-11T17:39:05.748</Modified>
+      <Modified>2019-12-12T14:59:21.069</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -298,11 +302,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSREPO\ChatApp\ChatAppClient\ChatAppClient\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-12-09T13:51:03.948</Modified>
+      <Modified>2019-12-12T14:59:21.823</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VSREPO\ChatApp\ChatAppClient\ChatAppClient\bin\x86\Debug\Core\ChatAppClient.exe">
       <PackagePath>ChatAppClient.exe</PackagePath>
-      <Modified>2019-12-11T17:40:45.780</Modified>
+      <Modified>2019-12-12T14:59:24.016</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

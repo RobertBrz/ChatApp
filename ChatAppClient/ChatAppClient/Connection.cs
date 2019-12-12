@@ -33,8 +33,8 @@ namespace ChatAppClient
         {
             try
             {
-                tcpClient.Client.Connect("192.168.1.111", 22022);
-                Connected = true;
+                //tcpClient.Client.Connect("192.168.1.111", 22022);
+                //Connected = true;
             }
             catch (Exception ex)
             {

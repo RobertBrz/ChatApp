@@ -46,6 +46,10 @@
             "Microsoft.VisualStudio.Utilities": {
               "target": "Package",
               "version": "[16.4.29519.181, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.7.0, )"
             }
           },
           "imports": [

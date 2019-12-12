@@ -169,6 +169,9 @@
     <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\streamjsonrpc\2.2.34\lib\netstandard2.0\zh-Hant\StreamJsonRpc.resources.dll">
       <PackagePath>zh-Hant\StreamJsonRpc.resources.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\system.drawing.common\4.7.0\lib\netstandard2.0\System.Drawing.Common.dll">
+      <PackagePath>System.Drawing.Common.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\system.io.pipelines\4.5.3\lib\netstandard2.0\System.IO.Pipelines.dll">
       <PackagePath>System.IO.Pipelines.dll</PackagePath>
     </AppxPackagedFile>

@@ -2,11 +2,13 @@
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -78,6 +80,23 @@ namespace ChatAppClient
             contacts.Add(con);
             Contact con2 = new Contact("xxxxxxxx", "ddddddd");
             contacts.Add(con2);
+        }
+
+        private void Search_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            try
+            {
+                
+            }
+            catch (Exception ex)
+            {
+
+            }
+        }
+
+        private void Attachments_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
