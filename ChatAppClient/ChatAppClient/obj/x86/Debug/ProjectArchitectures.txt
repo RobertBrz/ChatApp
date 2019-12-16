@@ -1,1 +1,1 @@
-D:\VSREPO\ChatApp\ChatAppClient\ChatAppClient\ChatAppClient.csproj;x86
+D:\repo\ChatApp\ChatAppClient\ChatAppClient\ChatAppClient.csproj;x86

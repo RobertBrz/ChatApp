@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VSREPO\\ChatApp\\ChatAppClient\\ChatAppClient\\ChatAppClient.csproj": {}
+    "D:\\repo\\ChatApp\\ChatAppClient\\ChatAppClient\\ChatAppClient.csproj": {}
   },
   "projects": {
-    "D:\\VSREPO\\ChatApp\\ChatAppClient\\ChatAppClient\\ChatAppClient.csproj": {
+    "D:\\repo\\ChatApp\\ChatAppClient\\ChatAppClient\\ChatAppClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VSREPO\\ChatApp\\ChatAppClient\\ChatAppClient\\ChatAppClient.csproj",
+        "projectUniqueName": "D:\\repo\\ChatApp\\ChatAppClient\\ChatAppClient\\ChatAppClient.csproj",
         "projectName": "ChatAppClient",
-        "projectPath": "D:\\VSREPO\\ChatApp\\ChatAppClient\\ChatAppClient\\ChatAppClient.csproj",
-        "packagesPath": "C:\\Users\\rober\\.nuget\\packages\\",
-        "outputPath": "D:\\VSREPO\\ChatApp\\ChatAppClient\\ChatAppClient\\obj\\",
+        "projectPath": "D:\\repo\\ChatApp\\ChatAppClient\\ChatAppClient\\ChatAppClient.csproj",
+        "packagesPath": "C:\\Users\\Robert\\.nuget\\packages\\",
+        "outputPath": "D:\\repo\\ChatApp\\ChatAppClient\\ChatAppClient\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -19,7 +19,7 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\rober\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Robert\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -50,6 +50,10 @@
             "System.Drawing.Common": {
               "target": "Package",
               "version": "[4.7.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.4.0.991265, )"
             }
           },
           "imports": [

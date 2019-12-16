@@ -88,7 +88,9 @@
                     <TextBlock x:Name="PickedSurname" Text="{x:Bind pickedcontact.status.ToString()}"/>
                 </StackPanel>
             </Grid>
-
+            <Grid Grid.Row="1">
+                <ListView x:Name="ConversationList"    />
+            </Grid>
             <Grid Grid.Row="2">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="40"/>
@@ -101,6 +103,29 @@
                 <Grid Grid.Column="1">
                     <TextBox x:Name="Message" PlaceholderText="Write a message..." BorderThickness="0"  />
                 </Grid>
+
+
+                <!--<StackPanel Orientation="Horizontal"
+            HorizontalAlignment="Left"
+            Padding="6"
+            >
+                    <Polygon Points="0,0 15,0 15,15"
+             Fill="LightGray"
+             Margin="0,10,0,0"
+             />
+
+                    <Border Background="LightGray"
+            CornerRadius="3"
+            Padding="6"
+            VerticalAlignment="Top"
+            >
+                        <TextBlock Text="Text"
+                   TextWrapping="WrapWholeWords"
+                   Width="100"
+                   Height="50"
+                   />
+                    </Border>
+                </StackPanel>-->
 
 
             </Grid>
@@ -118,5 +143,7 @@
     </Grid>
 
 
-
 </Page>
+
+
+

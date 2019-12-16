@@ -16,6 +16,8 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Windows.UI.Xaml.Shapes;
+using Color = Windows.UI.Color;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -67,6 +69,48 @@ namespace ChatAppClient
                 pickedcontact = (Contact)pickeditem;
                 PickedName.Text = pickedcontact.name;
                 PickedSurname.Text = pickedcontact.surname;
+
+
+
+                Polygon polygon = new Polygon();
+                PointCollection points = new PointCollection();
+                points.Add(new Windows.Foundation.Point(0, 0));
+                points.Add(new Windows.Foundation.Point(15, 0));
+                points.Add(new Windows.Foundation.Point(15, 15));
+                polygon.Points = points;
+                polygon.Fill = new SolidColorBrush(Colors.LightGray);
+                Thickness t2 = new Thickness(0, 10, 0, 0);
+                polygon.Margin = t2;
+
+
+                TextBlock tb = new TextBlock();
+                tb.TextWrapping = TextWrapping.WrapWholeWords;
+                tb.Width = 100;
+                tb.Height = 50;
+                tb.Text = "messagetst";
+
+
+                Border b = new Border();
+                CornerRadius c = new CornerRadius(3, 3, 3, 3);
+                b.CornerRadius = c;
+                Thickness t = new Thickness(6, 6, 6, 6);
+                b.Padding = t;
+                b.VerticalAlignment = VerticalAlignment.Top;
+                b.Background = new SolidColorBrush(Colors.LightGray);
+                b.Child = tb;
+
+
+                StackPanel sp = new StackPanel();
+                sp.Orientation = Orientation.Horizontal;
+                sp.HorizontalAlignment = HorizontalAlignment.Left;
+                //   sp.HorizontalAlignment = HorizontalAlignment.Right;
+                sp.Padding = t;
+                sp.Children.Add(polygon);
+                sp.Children.Add(b);
+
+
+                ConversationList.Items.Add(sp);
+
             }
             catch (Exception ex)
             {
@@ -86,7 +130,7 @@ namespace ChatAppClient
         {
             try
             {
-                
+
             }
             catch (Exception ex)
             {
