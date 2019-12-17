@@ -10,7 +10,7 @@
 
 
 
-    <Grid >
+    <Grid x:ConnectionId='2'                                      >
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*"/>
             <ColumnDefinition Width="3*" />
@@ -27,45 +27,45 @@
                     <ColumnDefinition Width="1*"/>
                 </Grid.ColumnDefinitions>
                 <Grid Grid.Column="0">
-                    <Button x:ConnectionId='18' x:Name="ButtonShowPane"                  Content="&#xE715;"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                    <Button x:ConnectionId='20' x:Name="ButtonShowPane"                  Content="&#xE715;"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
                 </Grid>
                 <Grid Grid.Column="1" Background="LightGray">
-                    <TextBox x:ConnectionId='17' x:Name="Search" Margin="3"  Background="White" CornerRadius="5"                                  BorderThickness="0" PlaceholderText="Search"/>
+                    <TextBox x:ConnectionId='19' x:Name="Search" Margin="3"  Background="White" CornerRadius="5"                                  BorderThickness="0" PlaceholderText="Search"/>
                 </Grid>
             </Grid>
             <Grid Grid.Row="1">
                 <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-                    <SplitView x:ConnectionId='7'  x:Name="SplitViewPanel_Menu" DisplayMode="CompactOverlay" IsPaneOpen="False" Background="LightGray"  CompactPaneLength="0" OpenPaneLength="150">
+                    <SplitView x:ConnectionId='9'  x:Name="SplitViewPanel_Menu" DisplayMode="CompactOverlay" IsPaneOpen="False" Background="LightGray"  CompactPaneLength="0" OpenPaneLength="150">
                         <SplitView.Pane>
                             <StackPanel Background="Gray">
                                 <!--<Button x:Name="Button_ShowMenu" FontFamily="Segeo MDL2 Assets" Content="&#xF00F;" Width="50" Height="50" Background="Transparent" Click="ShowPane" />-->
                                 <StackPanel Orientation="Horizontal">
-                                    <Button x:ConnectionId='10' x:Name="Images" FontFamily="Segeo MDL2 Assets" Content="&#xE715;" Width="50" Height="50" Background="Transparent"  />
+                                    <Button x:ConnectionId='12' x:Name="Images" FontFamily="Segeo MDL2 Assets" Content="&#xE715;" Width="50" Height="50" Background="Transparent"  />
                                     <TextBlock Text="Images" FontSize="18" VerticalAlignment="Center"/>
                                 </StackPanel>
                                 <StackPanel Orientation="Horizontal">
-                                    <Button x:ConnectionId='9' x:Name="settings" FontFamily="Segeo MDL2 Assets"   Content="&#xE713;" Width="50" Height="50" Background="Transparent"                        />
+                                    <Button x:ConnectionId='11' x:Name="settings" FontFamily="Segeo MDL2 Assets"   Content="&#xE713;" Width="50" Height="50" Background="Transparent"                        />
                                     <TextBlock Text="Settings" FontSize="18" VerticalAlignment="Center"/>
                                 </StackPanel>
                                 <StackPanel Orientation="Horizontal">
-                                    <Button x:ConnectionId='8' x:Name="Button_Addcontact" FontFamily="Segeo MDL2 Assets" Content="&#xE1CE;" Width="50" Height="50" Background="Transparent"                          />
+                                    <Button x:ConnectionId='10' x:Name="Button_Addcontact" FontFamily="Segeo MDL2 Assets" Content="&#xE1CE;" Width="50" Height="50" Background="Transparent"                          />
                                     <TextBlock Text="Add Contact" FontSize="18" VerticalAlignment="Center"/>
                                 </StackPanel>
                             </StackPanel>
                         </SplitView.Pane>
                         <SplitView.Content >
-                            <ListView x:ConnectionId='11' x:Name="lsitviewcontacts"                                                                                   >
+                            <ListView x:ConnectionId='13' x:Name="lsitviewcontacts"                                                                                   >
                                 <ListView.ItemTemplate>
                                     <DataTemplate x:Name="ContactsData"                               >
-                                        <StackPanel x:ConnectionId='13' Orientation="Horizontal" Height="64">
+                                        <StackPanel x:ConnectionId='15' Orientation="Horizontal" Height="64">
                                             <Ellipse Height="48" Width="48" VerticalAlignment="Center">
                                                 <Ellipse.Fill>
-                                                    <ImageBrush x:ConnectionId='16'                                    />
+                                                    <ImageBrush x:ConnectionId='18'                                    />
                                                 </Ellipse.Fill>
                                             </Ellipse>
                                             <StackPanel Orientation="Vertical" VerticalAlignment="Center"  >
-                                                <TextBlock x:ConnectionId='14' x:Name="PickedName"                       Style="{ThemeResource BaseTextBlockStyle}" Foreground="{ThemeResource SystemControlPageTextBaseHighBrush}"/>
-                                                <TextBlock x:ConnectionId='15' x:Name="PicekdSurname"                         Style="{ThemeResource BaseTextBlockStyle}" Foreground="{ThemeResource SystemControlPageTextBaseMediumBrush}"/>
+                                                <TextBlock x:ConnectionId='16' x:Name="PickedName"                       Style="{ThemeResource BaseTextBlockStyle}" Foreground="{ThemeResource SystemControlPageTextBaseHighBrush}"/>
+                                                <TextBlock x:ConnectionId='17' x:Name="PicekdSurname"                         Style="{ThemeResource BaseTextBlockStyle}" Foreground="{ThemeResource SystemControlPageTextBaseMediumBrush}"/>
                                             </StackPanel>
                                         </StackPanel>
                                     </DataTemplate>
@@ -84,12 +84,19 @@
             </Grid.RowDefinitions>
             <Grid Grid.Row="0" Background="LightGray">
                 <StackPanel Orientation="Vertical"  >
-                    <TextBlock x:ConnectionId='5' x:Name="PickedName"                                      />
-                    <TextBlock x:ConnectionId='6' x:Name="PickedSurname"                                                />
+                    <TextBlock x:ConnectionId='7' x:Name="PickedName"                                      />
+                    <TextBlock x:ConnectionId='8' x:Name="PickedSurname"                                                />
                 </StackPanel>
             </Grid>
             <Grid Grid.Row="1">
-                <ListView x:ConnectionId='4' x:Name="ConversationList"    />
+                <ListView x:ConnectionId='5' x:Name="ConversationList" >
+                    <ListView.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <ItemsStackPanel x:Name="ItemsStackPanel" ItemsUpdatingScrollMode="KeepLastItemInView" VerticalAlignment="Bottom"/>
+                        </ItemsPanelTemplate>
+                    </ListView.ItemsPanel>
+                </ListView>
+               
             </Grid>
             <Grid Grid.Row="2">
                 <Grid.ColumnDefinitions>
@@ -98,10 +105,10 @@
                 </Grid.ColumnDefinitions>
 
                 <Grid Grid.Column="0">
-                    <Button x:ConnectionId='3' x:Name="Attachments"                            HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                    <Button x:ConnectionId='4' x:Name="Attachments"                            HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
                 </Grid>
                 <Grid Grid.Column="1">
-                    <TextBox x:ConnectionId='2' x:Name="Message" PlaceholderText="Write a message..." BorderThickness="0"  />
+                    <TextBox x:ConnectionId='3' x:Name="MessageTextBox" PlaceholderText="Write a message..." BorderThickness="0"  />
                 </Grid>
 
 

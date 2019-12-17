@@ -15,6 +15,7 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 using Windows.UI.Xaml.Shapes;
 using Color = Windows.UI.Color;
@@ -30,6 +31,7 @@ namespace ChatAppClient
     {
         ObservableCollection<Contact> contacts = new ObservableCollection<Contact>();
         Contact pickedcontact = null;
+        Message messgae = new Message();
 
 
         public MainPage()
@@ -71,46 +73,8 @@ namespace ChatAppClient
                 PickedSurname.Text = pickedcontact.surname;
 
 
-
-                Polygon polygon = new Polygon();
-                PointCollection points = new PointCollection();
-                points.Add(new Windows.Foundation.Point(0, 0));
-                points.Add(new Windows.Foundation.Point(15, 0));
-                points.Add(new Windows.Foundation.Point(15, 15));
-                polygon.Points = points;
-                polygon.Fill = new SolidColorBrush(Colors.LightGray);
-                Thickness t2 = new Thickness(0, 10, 0, 0);
-                polygon.Margin = t2;
-
-
-                TextBlock tb = new TextBlock();
-                tb.TextWrapping = TextWrapping.WrapWholeWords;
-                tb.Width = 100;
-                tb.Height = 50;
-                tb.Text = "messagetst";
-
-
-                Border b = new Border();
-                CornerRadius c = new CornerRadius(3, 3, 3, 3);
-                b.CornerRadius = c;
-                Thickness t = new Thickness(6, 6, 6, 6);
-                b.Padding = t;
-                b.VerticalAlignment = VerticalAlignment.Top;
-                b.Background = new SolidColorBrush(Colors.LightGray);
-                b.Child = tb;
-
-
-                StackPanel sp = new StackPanel();
-                sp.Orientation = Orientation.Horizontal;
-                sp.HorizontalAlignment = HorizontalAlignment.Left;
-                //   sp.HorizontalAlignment = HorizontalAlignment.Right;
-                sp.Padding = t;
-                sp.Children.Add(polygon);
-                sp.Children.Add(b);
-
-
-                ConversationList.Items.Add(sp);
-
+                //ConversationList.Items.Add(messgae.SetMessage(false));
+                // ConversationList.Items.Add(messgae.SetMessage(true));
             }
             catch (Exception ex)
             {
@@ -141,6 +105,16 @@ namespace ChatAppClient
         private void Attachments_Click(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void Grid_PreviewKeyDown(object sender, KeyRoutedEventArgs e)
+        {
+            if (MessageTextBox.FocusState == FocusState.Pointer && e.Key == Windows.System.VirtualKey.Enter)
+            {
+                string bexmessage = MessageTextBox.Text;
+                ConversationList.Items.Add(messgae.SetMessage(true, bexmessage));
+                MessageTextBox.Text = "";
+            }
         }
     }
 }

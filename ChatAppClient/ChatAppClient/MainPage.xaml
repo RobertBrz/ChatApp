@@ -10,7 +10,7 @@
 
 
 
-    <Grid >
+    <Grid  PreviewKeyDown="Grid_PreviewKeyDown">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*"/>
             <ColumnDefinition Width="3*" />
@@ -89,7 +89,14 @@
                 </StackPanel>
             </Grid>
             <Grid Grid.Row="1">
-                <ListView x:Name="ConversationList"    />
+                <ListView x:Name="ConversationList" >
+                    <ListView.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <ItemsStackPanel x:Name="ItemsStackPanel" ItemsUpdatingScrollMode="KeepLastItemInView" VerticalAlignment="Bottom"/>
+                        </ItemsPanelTemplate>
+                    </ListView.ItemsPanel>
+                </ListView>
+               
             </Grid>
             <Grid Grid.Row="2">
                 <Grid.ColumnDefinitions>
@@ -101,7 +108,7 @@
                     <Button x:Name="Attachments" Click="Attachments_Click"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
                 </Grid>
                 <Grid Grid.Column="1">
-                    <TextBox x:Name="Message" PlaceholderText="Write a message..." BorderThickness="0"  />
+                    <TextBox x:Name="MessageTextBox" PlaceholderText="Write a message..." BorderThickness="0"  />
                 </Grid>
 
 
