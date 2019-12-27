@@ -63,7 +63,7 @@ namespace ChatAppServer
             this.mre.Set();
             try
             {
-                ClientObject client = null;
+                IClientObject client;
 
                 lock (this.Clients)
                 {
@@ -74,7 +74,7 @@ namespace ChatAppServer
                     this.Clients.Add(id, client);
                 }
 
-                client.listener.BeginReceive(client.buffer, 0, client.bufferSize, SocketFlags.None, this.ReceiveCallback, client);
+                client.Listener.BeginReceive(client.Buffer, 0, client.BufferSize, SocketFlags.None, this.ReceiveCallback, client);
             }
             catch (Exception ex)
             {
@@ -82,17 +82,17 @@ namespace ChatAppServer
             }
         }
 
-        private void ReceiveCallback(IAsyncResult result)
+        public void ReceiveCallback(IAsyncResult result)
         {
-            ClientObject client = null;
+            IClientObject client = null;
 
             try
             {
-                client = (ClientObject)result.AsyncState;
-                var receive = client.listener.EndReceive(result);
-                var ipandport = client.listener.RemoteEndPoint;
+                client = (IClientObject)result.AsyncState;
+                var receive = client.Listener.EndReceive(result);
+                var ipandport = client.Listener.RemoteEndPoint;
 
-                if(receive > 0)
+                if (receive > 0)
                 {
 
                 }

@@ -6,6 +6,7 @@ using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Text;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI;
@@ -32,12 +33,13 @@ namespace ChatAppClient
         ObservableCollection<Contact> contacts = new ObservableCollection<Contact>();
         Contact pickedcontact = null;
         Message messgae = new Message();
+        Connection connection;
 
 
         public MainPage()
         {
             this.InitializeComponent();
-            Connection connection = new Connection();
+            connection = new Connection();
             connection.Connect();
             //   contacts = new ObservableCollection<Contact>();
 
@@ -111,9 +113,19 @@ namespace ChatAppClient
         {
             if (MessageTextBox.FocusState == FocusState.Pointer && e.Key == Windows.System.VirtualKey.Enter)
             {
-                string bexmessage = MessageTextBox.Text;
-                ConversationList.Items.Add(messgae.SetMessage(true, bexmessage));
-                MessageTextBox.Text = "";
+                try
+                {
+                    string bexmessage = MessageTextBox.Text;
+                    ConversationList.Items.Add(messgae.SetMessage(true, bexmessage));
+                    MessageTextBox.Text = "";
+
+                    byte[] bytestoSend = Encoding.ASCII.GetBytes(bexmessage);
+                    connection.client.Send(bytestoSend, bytestoSend.Length, System.Net.Sockets.SocketFlags.None);
+                }
+                catch (Exception ex)
+                {
+
+                }
             }
         }
     }

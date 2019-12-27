@@ -9,7 +9,19 @@ namespace ChatAppServer
 {
     public interface IClientObject
     {
-      
+
+        int BufferSize { get; }
+
+        int Id { get; }
+
+        bool Close { get; set; }
+
+        byte[] Buffer { get; }
+
+        Socket Listener { get; }
+
+        byte[] MessageBuffer { get; set; }
+
 
     }
 }

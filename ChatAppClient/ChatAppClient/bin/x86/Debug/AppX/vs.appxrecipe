@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\repo\ChatApp\ChatAppClient\ChatAppClient\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-12-17T13:48:15.267</Modified>
+      <Modified>2019-12-27T13:46:29.955</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\repo\ChatApp\ChatAppClient\ChatAppClient\bin\x86\Debug\ChatAppClient.exe">
       <PackagePath>entrypoint\ChatAppClient.exe</PackagePath>
-      <Modified>2019-12-17T13:48:14.305</Modified>
+      <Modified>2019-12-27T13:46:28.962</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Robert\.nuget\packages\microsoft.visualstudio.threading\16.4.16\lib\netstandard2.0\Microsoft.VisualStudio.Threading.dll">
       <PackagePath>Microsoft.VisualStudio.Threading.dll</PackagePath>
@@ -318,15 +318,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\repo\ChatApp\ChatAppClient\ChatAppClient\bin\x86\Debug\Microsoft.UI.Xaml\DensityStyles\Compact.xbf">
       <PackagePath>Microsoft.UI.Xaml\DensityStyles\Compact.xbf</PackagePath>
-      <Modified>2019-12-17T13:48:14.118</Modified>
+      <Modified>2019-12-27T13:46:28.766</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\repo\ChatApp\ChatAppClient\ChatAppClient\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-12-17T13:48:14.118</Modified>
+      <Modified>2019-12-27T13:46:28.766</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\repo\ChatApp\ChatAppClient\ChatAppClient\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-12-17T13:48:14.118</Modified>
+      <Modified>2019-12-27T13:46:28.767</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -342,11 +342,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\repo\ChatApp\ChatAppClient\ChatAppClient\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-12-17T10:42:04.103</Modified>
+      <Modified>2019-12-27T13:16:52.906</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\repo\ChatApp\ChatAppClient\ChatAppClient\bin\x86\Debug\Core\ChatAppClient.exe">
       <PackagePath>ChatAppClient.exe</PackagePath>
-      <Modified>2019-12-17T13:48:15.263</Modified>
+      <Modified>2019-12-27T13:46:29.950</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

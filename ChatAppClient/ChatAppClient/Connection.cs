@@ -11,7 +11,7 @@ namespace ChatAppClient
     {
         TcpClient tcpClient;
         bool connected;
-        Socket client;
+        public Socket client;
 
         public bool Connected
         {
@@ -33,8 +33,10 @@ namespace ChatAppClient
         {
             try
             {
-                //tcpClient.Client.Connect("192.168.1.111", 22022);
-                //Connected = true;
+                tcpClient.Client.Connect("192.168.137.1", 22022);
+                byte[] bytestoSend = Encoding.ASCII.GetBytes("CONNECT");
+                tcpClient.Client.Send(bytestoSend, bytestoSend.Length, System.Net.Sockets.SocketFlags.None);
+                Connected = true;
             }
             catch (Exception ex)
             {
@@ -50,7 +52,7 @@ namespace ChatAppClient
 
                     break;
                 case false:
-
+                    client.Close();
                     break;
             }
         }
