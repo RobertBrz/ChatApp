@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\repo\ChatApp\ChatAppClient\ChatAppClient\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-12-27T13:46:29.955</Modified>
+      <Modified>2019-12-27T14:29:11.084</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\repo\ChatApp\ChatAppClient\ChatAppClient\bin\x86\Debug\ChatAppClient.exe">
       <PackagePath>entrypoint\ChatAppClient.exe</PackagePath>
-      <Modified>2019-12-27T13:46:28.962</Modified>
+      <Modified>2019-12-27T14:29:09.968</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Robert\.nuget\packages\microsoft.visualstudio.threading\16.4.16\lib\netstandard2.0\Microsoft.VisualStudio.Threading.dll">
       <PackagePath>Microsoft.VisualStudio.Threading.dll</PackagePath>
@@ -346,7 +346,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\repo\ChatApp\ChatAppClient\ChatAppClient\bin\x86\Debug\Core\ChatAppClient.exe">
       <PackagePath>ChatAppClient.exe</PackagePath>
-      <Modified>2019-12-27T13:46:29.950</Modified>
+      <Modified>2019-12-27T14:29:11.079</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

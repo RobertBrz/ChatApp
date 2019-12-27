@@ -34,7 +34,7 @@ namespace ChatAppClient
             try
             {
                 tcpClient.Client.Connect("192.168.137.1", 22022);
-                byte[] bytestoSend = Encoding.ASCII.GetBytes("CONNECT");
+                byte[] bytestoSend = Encoding.ASCII.GetBytes("Connect dadas dada dasadsa");
                 tcpClient.Client.Send(bytestoSend, bytestoSend.Length, System.Net.Sockets.SocketFlags.None);
                 Connected = true;
             }

@@ -94,7 +94,9 @@ namespace ChatAppServer
 
                 if (receive > 0)
                 {
-
+                    IEnumerable<byte> bytes = client.Buffer.Take(receive);
+                    byte[] message = bytes.ToArray();
+                    string data = Encoding.ASCII.GetString(message);
                 }
             }
             catch (Exception ex)
